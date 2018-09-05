@@ -1,0 +1,10 @@
+- name: Programming
+  description: Python, R (advanced); Matlab, C++ (proficient)
+- name: Communication
+  description: "Markdown/Pandoc, Rmarkdown, Latex (advanced)"
+- name: Reproducibility
+  description: "Docker, git, conda, GNU make (proficient)"
+- name: Bayesian Computation
+  description: "stan (advanced); PyMC3, Edward (proficient) [link](google.com)"
+- name: Deep Learning
+  description: "TensorFlow, Keras (proficient)"

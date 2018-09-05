@@ -1,0 +1,14 @@
+- name: The Nature of Water and Climate Risk
+  pic: conceptual-sketch.png
+  more: papers
+  description: "Hydroclimate systems vary on many time scales, causing the weather patterns that generate extreme events to cluster in space and time. On short time scales, low-frequency variability of the climate strongly controls climate risk, while at longer time scales anthropogenic modification of the climate is expected to dominate their occurence. These different mechansims have different associated uncertainty and time scales, which has important implications for the design of climate risk management strategies."
+
+- name: Predicting Water and Climate Risk
+  pic: example-fit.png
+  more: papers
+  description: "Predictions of climate risk depend on"
+
+- name: Managing Water and Climate Risk
+  pic: casa-de-bomba.jpg
+  more: papers
+  description: "Sequential decisions model"

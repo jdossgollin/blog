@@ -1,0 +1,16 @@
+---
+---
+{{ reference }}
+
+{% assign filename = entry.key | append: ".pdf" %}
+{% for static_file in site.static_files %}
+    {% if static_file.path contains filename %}
+        {% assign pdf = true %}
+    {% endif %}
+{% endfor %}
+
+{% if entry.url %}
+&rarr; <a href="{{ entry.url }}">online</a>
+{% endif %}
+<div data-badge-popover="right" data-badge-type="2"
+data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>

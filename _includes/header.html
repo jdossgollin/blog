@@ -1,0 +1,26 @@
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">
+                dynamics, extremes, statistics, adaptation
+            </div>
+            <div class="intro-heading">
+                Water and Climate Risk
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                            <li>
+                                <a href="{{ network.url }}">
+                                    <i class="fa fa-{{ network.title }}"></i>
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

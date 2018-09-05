@@ -1,0 +1,26 @@
+invited:
+  - title: "Understanding the physical drivers of extreme rainfall for flood prediction"
+    location: "Seminar at Oxford University School of Geography and the Environment"
+    date: "2016-08-26"
+    pdf: /pdf/2016-08-26-Oxford.pdf
+
+workshop:
+  - title: "Extreme Rainfall in Paraguay during the 2015-16 Austral Summer"
+    location: North East Graduate Student Water Symposium
+    date: "2017-09-10"
+    format: oral
+    pdf: /pdf/2017-09-09-NEGWS.pdf
+  - title: "Regional Intense Precipitation: Inferences from GCM Atmospheric Circulation Fields"
+    location: "NSF Workshop: Modeling Research in the Cloud"
+    date: "2017-05-31"
+    format: poster
+    pdf: /pdf/2017-05-31-UCAR.pdf
+  - title: "Statistical-Dynamical Analysis of Climate Projections for Flood Infrastructure Design"
+    location: "Interdisciplinary Ph.D. Workshop in Sustainable Development 2017"
+    date: "2017-04-21"
+    format: oral
+    pdf: /pdf/2017-04-21-Sust-Dev.pdf
+  - title: "Physical mechanisms and subseasonal-to-seasonal predictability of persistent intense rainfall and paraguay river flooding during the austral summer 2015/2016"
+    location: "Workshop on Subseasonal to Seasonal Predictability of Extreme Weather and Climate"
+    date: "2016-12-07"
+    format: poster
