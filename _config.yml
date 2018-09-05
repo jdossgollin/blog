@@ -13,10 +13,6 @@ color:
   secondary: 807F83
   secondary-dark: 333
 
-# pagination
-paginate: 5
-paginate_path: "/blog/page:num/"
-
 # medium posts
 collections:
   - medium_posts
