@@ -19,12 +19,10 @@ layout: default
                 {% assign newsitems = site.data.news | sort: 'date' | reverse %}
                 {% for item in newsitems limit: 6%}
                     <div class="col-md-4 col-sm-4 newsitem">
-                        <div class="collaborator">
-                            <i>{{ item.date }}</i>
-                            <p>
-                                {{ item.description }}
-                            </p>
-                        </div>
+                        <i>{{ item.date }}</i>
+                        <p>
+                            {{ item.description }}
+                        </p>
                     </div>
                 {% endfor %}
             </div>
