@@ -1,2 +1,2 @@
 require 'jekyll-scholar'
-require '-medium-posts'
+require 'jekyll-display-medium-posts'
