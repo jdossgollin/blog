@@ -7,37 +7,41 @@ contact:
   website: http://jdossgollin.github.io
 
 education:
+  - degree: Ph.D. Candidate
+    institution: Columbia University
+    location: New York, NY, USA
+    date: Present
   - degree: M.S., Earth and Environmental Engineering
     institution: Columbia University
     location: New York, NY, USA
-    dates: Sept. 2015--May 2016
+    date: Sept. 2015--May 2016
   - degree: B.S., Mechanical Engineering
     institution: Yale University
     location: New Haven, CT, USA
-    dates: Sept. 2011--May 2015
+    date: Sept. 2011--May 2015
   - degree: High School
     institution: Wilbur Cross High School
     location: New Haven, CT, USA
-    dates: Sept. 2007--May 2011
+    date: Sept. 2007--May 2011
 
 appointments:
-  - title: Graduate Research Assistant
+  - title: Graduate Student Researcher
     institution: Columbia University / Columbia Water Center
     location: New York, New York, USA
-    dates: September 2015--present
+    date: September 2015--present
   - title: Visiting Student Researcher, Climate Risk and Water Management Group
     institution: Hydraulic and Environmental Engineering Department, Universidade Federal do Ceará
     location: Fortaleza, Ceará, Brazil
-    dates: May--August 2014
+    date: May--August 2014
   - title: Undergraduate Research Assistant, Lab of Jaehong Kim
     institution: Earth and Environmental Engineering Department, Yale University
     location: New Haven, CT, USA
-    dates: May--August 2014
-  - title: Visiting Intern, Ikatú Agua Program
-    institution: Fundación Paraguaya
-    location: Asunción, Paraguay
-    dates: May--August 2013
+    date: May--August 2014
   - title: Mechanical Design Intern, Slingshot Project
     institution: DEKA Research & Development
     location: Manchester, NH, USA
-    dates: May--August 2012
+    date: May--August 2013
+  - title: Visiting Intern, Ikatú Agua Program
+    institution: Fundación Paraguaya
+    location: Asunción, Paraguay
+    date: May--August 2012

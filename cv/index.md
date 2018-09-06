@@ -14,23 +14,23 @@ title: Curriculum Vitae
 
 ## Education ##
 {% for edu in site.data.main.education %}
-* _{{ edu.dates}}_ -- __{{ edu.degree }}__, {{ edu.institution }}, {{ edu.location }}
+* __{{ edu.date }}__: _{{ edu.degree }}_, {{ edu.institution }}, {{ edu.location }}
 {% endfor %}
 
 ## Appointments ##
 {% for apt in site.data.main.appointments %}
-* _{{ apt.dates}}_ -- __{{ apt.title }}__, {{ apt.institution }}, {{ apt.location }}    
+* __{{ apt.date }}__: _{{ apt.title }}_, {{ apt.institution }}, {{ apt.location }}    
 {% endfor %}
 
 ## Awards ##
 {% for award in site.data.awards %}
-*  {{ award.institution }} _{{ award.name }}_ ({{ award.date }})
+*  __{{ award.date }}__: {{ award.institution }} _{{ award.name }}_
 {% endfor %}
 
 ## Teaching
 
 {% for course in site.data.teaching %}
-*  {{ course.role }} for {{ course.number }}: _{{ course.name }}_, {{ course.instructor }}, {{ course.size }} students. ({{ course.semester }})
+*  __{{ course.semester }}__: {{ course.role }} for {{ course.number }}: _{{ course.name }}_, {{ course.instructor }}, {{ course.size }} students.
 {% endfor %}
 
 ## Skills ##
@@ -38,7 +38,7 @@ title: Curriculum Vitae
 ### Languages
 
 {% for lang in site.data.language %}
-* {{ lang.name }} ({{ lang.level }})
+* __{{ lang.name }}__: {{ lang.level }}
 {% endfor %}
 
 ### Computer Skills
@@ -53,17 +53,17 @@ title: Curriculum Vitae
 
 Please see [my Publons page](publons.com/a/1468228/) for a complete list of verified reviews.
 {% for item in site.data.service.review %}
-* {{ item.time }}: {{ item.journal }}
+* __{{ item.time }}__: {{ item.journal }}
 {% endfor %}
 
 ### Profesional ###
 {% for item in site.data.service.professional %}
-* {{ item.time }}: {{ item.position }}, {{ item.organization }}
+* __{{ item.time }}__: {{ item.position }}, {{ item.organization }}
 {% endfor %}
 
 ### Outreach ###
 {% for item in site.data.service.outreach %}
-* {{ item.time }}: {{ item.position }}, {{ item.organization }}
+* __{{ item.time }}__: {{ item.position }}, {{ item.organization }}
 {% endfor %}
 
 ## Publications & Presentations ##
@@ -80,11 +80,11 @@ Please see [my Publons page](publons.com/a/1468228/) for a complete list of veri
 ### Invited Talks ###
 {% assign invitedtalks = site.data.presentations.invited | sort: 'date' | reverse %}
 {% for pres in invitedtalks %}
-* {{ pres.date }}: _{{ pres.title }}_, {{ pres.location }}. {% if pres.pdf %} &rarr; [PDF]({{ pres.pdf }}){% endif %} {% if pres.link %}[link]({{ pres.link }}){% endif %}
+* __{{ pres.date }}__: _{{ pres.title }}_, {{ pres.location }}. {% if pres.pdf %} &rarr; [PDF]({{ pres.pdf }}){% endif %} {% if pres.link %}[link]({{ pres.link }}){% endif %}
 {% endfor %}
 
 ### Workshop Presentations ###
 {% assign workshoptalks = site.data.presentations.workshop | sort: 'date' | reverse %}
 {% for pres in workshoptalks %}
-* {{ pres.date }}: _{{ pres.title }}_, {{ pres.location }}. {% if pres.pdf %} &rarr; [PDF]({{ pres.pdf }}){% endif %} {% if pres.link %}[link]({{ pres.link }}){% endif %}
+* __{{ pres.date }}__: _{{ pres.title }}_, {{ pres.location }}. {% if pres.pdf %} &rarr; [PDF]({{ pres.pdf }}){% endif %} {% if pres.link %}[link]({{ pres.link }}){% endif %}
 {% endfor %}
