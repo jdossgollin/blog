@@ -4,7 +4,7 @@ title: Curriculum Vitae
 ---
 
 # {{ site.data.main.contact.name }}
-{{ site.data.main.contact.title }}  
+{{ site.data.main.contact.title }}
 {{ site.data.main.contact.department }}  
 {{ site.data.main.contact.institution }}  
 
@@ -80,11 +80,33 @@ Please see [my Publons page](publons.com/a/1468228/) for a complete list of veri
 ### Invited Talks ###
 {% assign invitedtalks = site.data.presentations.invited | sort: 'date' | reverse %}
 {% for pres in invitedtalks %}
-* __{{ pres.date }}__: _{{ pres.title }}_, {{ pres.location }}. {% if pres.pdf %} &rarr; [PDF]({{ pres.pdf }}){% endif %} {% if pres.link %}[link]({{ pres.link }}){% endif %}
+* __{{ pres.date }}__: _{{ pres.title }}_.<br />
+    {{ pres.location }}.
+    {% if pres.pdf %} &rarr;
+        <a href='{{ site.data.main.contact.website }}{{ pres.pdf }}' target='_blank'>
+            PDF
+        </a>
+    {% endif %}
+    {% if pres.link %} &rarr;
+        <a href='{{ site.data.main.contact.website }}{{ pres.link }}' target='_blank'>
+            link
+        </a>
+    {% endif %}
 {% endfor %}
 
 ### Workshop Presentations ###
 {% assign workshoptalks = site.data.presentations.workshop | sort: 'date' | reverse %}
 {% for pres in workshoptalks %}
-* __{{ pres.date }}__: _{{ pres.title }}_, {{ pres.location }}. {% if pres.pdf %} &rarr; [PDF]({{ pres.pdf }}){% endif %} {% if pres.link %}[link]({{ pres.link }}){% endif %}
+* __{{ pres.date }}__: _{{ pres.title }}_.<br />
+    {{ pres.location }}.
+    {% if pres.pdf %} &rarr;
+        <a href='{{ site.data.main.contact.website }}{{ pres.pdf }}' target='_blank'>
+            PDF
+        </a>
+    {% endif %}
+    {% if pres.link %} &rarr;
+        <a href='{{ site.data.main.contact.website }}{{ pres.link }}' target='_blank'>
+            link
+        </a>
+    {% endif %}
 {% endfor %}

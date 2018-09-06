@@ -181,8 +181,9 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     /* font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive; */
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.color.primary }};
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
+    color: #fff;
+    font-weight: 1500;
 }
 
 .navbar-default .navbar-brand:hover,
