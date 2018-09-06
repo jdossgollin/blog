@@ -38,7 +38,7 @@ title: Curriculum Vitae
 ### Languages
 
 {% for lang in site.data.language %}
-* **{{ lang.name }}**: {{ lang.level }}
+* {{ lang.name }} ({{ lang.level }})
 {% endfor %}
 
 ### Computer Skills
@@ -79,10 +79,10 @@ Please see [my Publons page](publons.com/a/1468228/) for a complete list of veri
 
 ### Invited Talks ###
 {% for pres in site.data.presentations.invited %}
-* {{ pres.date }}: _{{ pres.title }}_, {{ pres.location }}. {% if pres.pdf %}[PDF]({{ pres.pdf }}){% endif %} {% if pres.link %}[link]({{ pres.link }}){% endif %}
+* {{ pres.date }}: _{{ pres.title }}_, {{ pres.location }}. {% if pres.pdf %} &rarr; [PDF]({{ pres.pdf }}){% endif %} {% if pres.link %}[link]({{ pres.link }}){% endif %}
 {% endfor %}
 
 ### Workshop Presentations ###
 {% for pres in site.data.presentations.workshop %}
-* {{ pres.date }}: _{{ pres.title }}_, {{ pres.location }}. {% if pres.pdf %}[PDF]({{ pres.pdf }}){% endif %} {% if pres.link %}[link]({{ pres.link }}){% endif %}
+* {{ pres.date }}: _{{ pres.title }}_, {{ pres.location }}. {% if pres.pdf %} &rarr; [PDF]({{ pres.pdf }}){% endif %} {% if pres.link %}[link]({{ pres.link }}){% endif %}
 {% endfor %}

@@ -3,11 +3,12 @@ require "tmpdir"
 
 require "bundler/setup"
 require "jekyll"
-require "jekyll/scholar"
+require "jekyll-scholar"
+require "jekyll-display-medium-posts"
 
 # Change your GitHub reponame
 GITHUB_REPONAME = "jdossgollin/jdossgollin.github.io"
-MEDIUM_USERNAME="jdossgollin"
+MEDIUM_USERNAME = "jdossgollin"
 
 desc "Generate blog files"
 task :generate do

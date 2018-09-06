@@ -1,11 +1,11 @@
 url: https://rabernat.github.io
 baseurl:
-plugins: ['jekyll/scholar']
+plugins: ['jekyll-scholar', 'jekyll-display-medium-posts']
 
 # Site settings
 title: James Doss-Gollin
 email: james.doss-gollin@columbia.edu
-description: "Statistics + Physics for Climate Risk Management"
+description: "Personal research website of James Doss-Gollin, Columbia University"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -21,12 +21,12 @@ collections:
 social:
   - title: envelope
     url: mailto:james.doss-gollin@columbia.edu
-  - title: twitter
-    url: http://twitter.com/jdossgollin
-  - title: github
-    url: http://github.com/jdossgollin
   - title: medium
     url: https://medium.com/@jdossgollin
+  - title: github
+    url: http://github.com/jdossgollin
+  - title: twitter
+    url: http://twitter.com/jdossgollin
 
 # Build settings
 markdown: kramdown

@@ -5,6 +5,6 @@
 - name: Reproducibility
   description: "Docker, git, conda, GNU make (proficient)"
 - name: Bayesian Computation
-  description: "stan (advanced); PyMC3, Edward (proficient) [link](google.com)"
+  description: "stan (advanced); PyMC3, Edward (proficient)"
 - name: Deep Learning
   description: "TensorFlow, Keras (proficient)"
