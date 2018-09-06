@@ -1,0 +1,23 @@
+- date: "2018-09-05"
+  description: "I have updated my website based on the excellent Jekyll template by
+  <a href='https://rabernat.github.io' target='_blank'>
+    Ryan Abernathey
+  </a> and the jekyll-scholar and jekyll-display-medium-posts plugins"
+- date: "2018-08-03"
+  description: "Elisabeth Gawthrop of IRI has written
+  <a href='https://iri.columbia.edu/news/new-study-shows-promise-for-subseasonal-forecasts-of-heavy-rain-in-south-america/' target='_blank'>
+    a fantastic blog post
+  </a>
+  about
+  <a href='https://journals.ametsoc.org/doi/10.1175/JCLI-D-17-0805.1' target='_blank'>
+    our new paper
+  </a> in Journal of Climate"
+- date: "2018-08-16"
+  description: "Ahora existe una versión en castellano del
+  <a href='https://iri.columbia.edu/news/nuevo-estudio-muestra-promesa-en-pronostico-subestacional-de-lluvias-intensas-en-sudamerica/' target='_blank'>
+    excelente sumario
+  </a>
+  que escribió Elisabeth Gawthrop del IRI sobre
+  <a href='https://journals.ametsoc.org/doi/10.1175/JCLI-D-17-0805.1' target='_blank'>
+    nuestro nuevo artículo
+  </a> en el Journal of Climate"

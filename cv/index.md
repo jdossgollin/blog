@@ -78,11 +78,13 @@ Please see [my Publons page](publons.com/a/1468228/) for a complete list of veri
 {% bibliography  --query @inproceedings %}
 
 ### Invited Talks ###
-{% for pres in site.data.presentations.invited %}
+{% assign invitedtalks = site.data.presentations.invited | sort: 'date' | reverse %}
+{% for pres in invitedtalks %}
 * {{ pres.date }}: _{{ pres.title }}_, {{ pres.location }}. {% if pres.pdf %} &rarr; [PDF]({{ pres.pdf }}){% endif %} {% if pres.link %}[link]({{ pres.link }}){% endif %}
 {% endfor %}
 
 ### Workshop Presentations ###
-{% for pres in site.data.presentations.workshop %}
+{% assign workshoptalks = site.data.presentations.workshop | sort: 'date' | reverse %}
+{% for pres in workshoptalks %}
 * {{ pres.date }}: _{{ pres.title }}_, {{ pres.location }}. {% if pres.pdf %} &rarr; [PDF]({{ pres.pdf }}){% endif %} {% if pres.link %}[link]({{ pres.link }}){% endif %}
 {% endfor %}
