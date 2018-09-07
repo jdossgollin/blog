@@ -17,8 +17,8 @@ layout: default
             </div>
             <div class="container">
                 {% assign newsitems = site.data.news | sort: 'date' | reverse %}
-                {% for item in newsitems limit: 6%}
-                    <div class="col-md-3 col-sm-3 newsitem">
+                {% for item in newsitems limit: 9%}
+                    <div class="col-md-4 col-sm-4 newsitem">
                         <i>{{ item.date }}</i>
                         <p>
                             {{ item.description }}
@@ -146,7 +146,7 @@ layout: default
         </div>
         <div class="row">
             {% for link in site.data.links %}
-                <div class="col-md-3 col-sm-3 newsitem">
+                <div class="col-md-4 col-sm-4 newsitem">
                     <a href="{{ link.url }}" target="_blank">{{link.name}}</a>
                     {{ link.description }}
                 </div>
