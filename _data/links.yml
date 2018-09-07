@@ -5,5 +5,23 @@
   description: My academic department
   url: http://eee.columbia.edu
 - name: New Haven REACH
-  description: A college counseling program pairing Yale University volunteers and New Haven Public School high school students
+  description: A college counseling program I founded which pairs Yale University volunteers and New Haven Public School high school students
   url: https://www.facebook.com/NewHavenREACH
+- name: Upmanu Lall
+  description: The academic homepage of my Ph.D. advisor
+  url: http://www.columbia.edu/~ula2/
+- name: Publons
+  url: http://publons.com/a/1468228/
+  description: My profile on Publons, which is a cool new site designed to give peer reviewers credit for their reviews
+- name: ResearcherID
+  url: https://researcherid.com/rid/J-4273-2014
+  description: My ResearcherID profile
+- name: OrcID
+  url: http://orcid.org/0000-0002-3428-2224
+  description: My OrcID profile
+- name: Google Scholar
+  url: https://scholar.google.com/citations?user=6ifLBBsAAAAJ&hl=en&authuser=1
+  description: My Google Scholar profile
+- name: LinkedIN
+  url: https://www.linkedin.com/in/jamesdossgollin/
+  description: My LinkedIN profile

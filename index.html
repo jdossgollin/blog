@@ -140,13 +140,13 @@ layout: default
                     Related Links
                 </h2>
                 <h3 class="section-subheading text-muted">
-                    Links to related projects and organizations.
+                    Links to related projects, organizations, and external sites.
                 </h3>
             </div>
         </div>
         <div class="row">
             {% for link in site.data.links %}
-                <div class="col-md-4 col-sm-4 newsitem">
+                <div class="col-md-3 col-sm-3 newsitem">
                     <a href="{{ link.url }}" target="_blank">{{link.name}}</a>
                     {{ link.description }}
                 </div>
