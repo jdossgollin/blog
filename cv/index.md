@@ -82,14 +82,12 @@ Please see [my Publons page](publons.com/a/1468228/) for a complete list of veri
 {% for pres in invitedtalks %}
 * __{{ pres.date }}__: _{{ pres.title }}_.<br />
     {{ pres.location }}.
-    {% if pres.pdf %} &rarr;
-        <a href='{{ site.data.main.contact.website }}{{ pres.pdf }}' target='_blank'>
-            PDF
+    {% if pres.pdf %}<a href='{{ site.data.main.contact.website }}{{ pres.pdf }}' target='_blank'>
+            <i class="fa fa-file-pdf-o"></i>
         </a>
     {% endif %}
-    {% if pres.link %} &rarr;
-        <a href='{{ site.data.main.contact.website }}{{ pres.link }}' target='_blank'>
-            link
+    {% if pres.link %}<a href='{{ site.data.main.contact.website }}{{ pres.link }}' target='_blank'>
+            <i class="fa fa-external-link"></i>
         </a>
     {% endif %}
 {% endfor %}
@@ -99,14 +97,12 @@ Please see [my Publons page](publons.com/a/1468228/) for a complete list of veri
 {% for pres in workshoptalks %}
 * __{{ pres.date }}__: _{{ pres.title }}_.<br />
     {{ pres.location }}.
-    {% if pres.pdf %} &rarr;
-        <a href='{{ site.data.main.contact.website }}{{ pres.pdf }}' target='_blank'>
-            PDF
+    {% if pres.pdf %}<a href='{{ site.data.main.contact.website }}{{ pres.pdf }}' target='_blank'>
+            <i class="fa fa-file-pdf-o"></i>
         </a>
     {% endif %}
-    {% if pres.link %} &rarr;
-        <a href='{{ site.data.main.contact.website }}{{ pres.link }}' target='_blank'>
-            link
+    {% if pres.link %}<a href='{{ site.data.main.contact.website }}{{ pres.link }}' target='_blank'>
+            <i class="fa fa-external-link"></i>
         </a>
     {% endif %}
 {% endfor %}

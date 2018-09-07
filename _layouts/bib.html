@@ -9,8 +9,18 @@
     {% endif %}
 {% endfor %}
 
-{% if entry.url %}
-&rarr; <a href="{{ entry.url }}">online</a>
+{% if entry.doi %}
+<a href="http://doi.org/{{ entry.doi }}" target="_blank">
+    <i class="fa fa-external-link"></i>
+</a>
 {% endif %}
+{% if entry.url %}
+    {% unless entry.doi %}
+        <a href="{{ entry.url }}" target="_blank">
+            <i class="fa fa-external-link"></i>
+        </a>
+    {% endunless %}
+{% endif %}
+
 <div data-badge-popover="right" data-badge-type="2"
 data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed"></div>
