@@ -1,27 +1,36 @@
 - name: Columbia Water Center
-  description: Check out the cool research my lab is doing on a wide range of water and climate issues
+  description: Check out the cool research my lab is doing to address a wide range of water-related challenges
   url: http://water.columbia.edu
 - name: Columbia Earth and Environmental Engineering Department
-  description: My academic department
+  description: Lots of interesting things happening in my department
   url: http://eee.columbia.edu
 - name: New Haven REACH
-  description: A college counseling program I founded which pairs Yale University volunteers and New Haven Public School high school students
+  description: A program I founded which pairs Yale University volunteers and New Haven Public School high school students to navigate the college admissions process together
   url: https://www.facebook.com/NewHavenREACH
+- name: My Twitter Profile
+  url: https://www.twitter.com/jdossgollin
+  description: Learn what I think about a wide range of science and soccer issues!
+- name: My Medium Page
+  url: https://www.medium.com/@jdossgollin
+  description: The blog page where I occasionally post long-form ideas
 - name: Upmanu Lall
-  description: The academic homepage of my Ph.D. advisor
+  description: My Ph.D. advisor
   url: http://www.columbia.edu/~ula2/
-- name: Publons
+- name: My Publons Profile
   url: http://publons.com/a/1468228/
-  description: My profile on Publons, which is a cool new site designed to give peer reviewers credit for their reviews
-- name: ResearcherID
-  url: https://researcherid.com/rid/J-4273-2014
-  description: My ResearcherID profile
-- name: OrcID
+  description: Publons gives peer reviewers credit for their reviews. See where I've reviewed!
+- name: My OrcID Profile
   url: http://orcid.org/0000-0002-3428-2224
-  description: My OrcID profile
-- name: Google Scholar
+  description: OrcID tracks all the peer-reviewed papers I've written
+- name: My Google Scholar Profile
   url: https://scholar.google.com/citations?user=6ifLBBsAAAAJ&hl=en&authuser=1
-  description: My Google Scholar profile
-- name: LinkedIN
+  description: Google Scholar tracks all the academic manuscripts I've written, including some conference abstracts
+- name: My Linkedin Profile
   url: https://www.linkedin.com/in/jamesdossgollin/
-  description: My LinkedIN profile
+  description: Linkedin makes it easy to network
+- name: National Science Foundation Graduate Research Fellowship Program
+  url: https://www.nsfgrfp.org/
+  description: The organization funding my PhD!
+- name: My GitHub Profile
+  url: https://github.com/jdossgollin
+  description: View, download, and modify all of my research codes.

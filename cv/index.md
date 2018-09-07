@@ -17,7 +17,7 @@ title: Curriculum Vitae
 * __{{ edu.date }}__: _{{ edu.degree }}_, {{ edu.institution }}, {{ edu.location }}
 {% endfor %}
 
-## Appointments ##
+## Experience ##
 {% for apt in site.data.main.appointments %}
 * __{{ apt.date }}__: _{{ apt.title }}_, {{ apt.institution }}, {{ apt.location }}    
 {% endfor %}
@@ -58,12 +58,12 @@ Please see [my Publons page](publons.com/a/1468228/) for a complete list of veri
 
 ### Profesional ###
 {% for item in site.data.service.professional %}
-* __{{ item.time }}__: {{ item.position }}, {{ item.organization }}
+* __{{ item.time }}__: _{{ item.position }}_, {{ item.organization }}
 {% endfor %}
 
 ### Outreach ###
 {% for item in site.data.service.outreach %}
-* __{{ item.time }}__: {{ item.position }}, {{ item.organization }}
+* __{{ item.time }}__: _{{ item.position }}_, {{ item.organization }}
 {% endfor %}
 
 ## Publications & Presentations ##

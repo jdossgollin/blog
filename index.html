@@ -18,9 +18,9 @@ layout: default
             <div class="container">
                 {% assign newsitems = site.data.news | sort: 'date' | reverse %}
                 {% for item in newsitems limit: 9%}
-                    <div class="col-md-4 col-sm-4 newsitem">
+                    <div class="col-md-3 col-sm-3 newsitem">
                         <i>{{ item.date }}</i>
-                        <p>
+                        <p> 
                             {{ item.description }}
                         </p>
                     </div>
@@ -38,7 +38,7 @@ layout: default
                     Recent Blog Posts
                 </h2>
                 <h3 class="section-subheading text-muted">
-                    Read all my posts <a href="https://medium.com/@jdossgollin/">at my Medium profile</a>
+                    Read all my posts <a href="https://medium.com/@jdossgollin/" target="_blank">at my Medium profile</a>
                 </h3>
             </div>
         </div>
@@ -52,7 +52,7 @@ layout: default
             </div>
             <p>
                 {{ post.feed_content | strip_html | truncatewords: 65 }}
-                <a href={{ post.medium_link }}>Read more on Medium</a>
+                <a href={{ post.medium_link }} target="_blank">Read more on Medium</a>
             </p>
         </div>
     {% endfor %}
@@ -139,14 +139,14 @@ layout: default
                 <h2 class="section-heading">
                     Related Links
                 </h2>
-                <h3 class="section-subheading text-muted">
+                <!-- <h3 class="section-subheading text-muted">
                     Links to related projects, organizations, and external sites.
-                </h3>
+                </h3> -->
             </div>
         </div>
         <div class="row">
             {% for link in site.data.links %}
-                <div class="col-md-3 col-sm-3 newsitem">
+                <div class="col-md-2 col-sm-2 newsitem">
                     <a href="{{ link.url }}" target="_blank">{{link.name}}</a>
                     {{ link.description }}
                 </div>
