@@ -5,7 +5,7 @@ plugins: ['jekyll-scholar']
 # Site settings
 title: James Doss-Gollin
 email: james.doss-gollin@columbia.edu
-description: "Personal research website of James Doss-Gollin, Columbia University"
+description: "Research website of James Doss-Gollin, a Ph.D. Student in Earth and Environmental Engineering at Columbia University, about floods, climate adaptation, risk management, data science, statistics, infrastructure, and water management"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:

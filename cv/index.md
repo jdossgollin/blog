@@ -13,13 +13,15 @@ title: Curriculum Vitae
 [{{ site.data.main.contact.website }}]({{ site.data.main.contact.website }})
 
 ## Education ##
-{% for edu in site.data.main.education %}
-* __{{ edu.date }}__: _{{ edu.degree }}_, {{ edu.institution }}, {{ edu.location }}
+{% assign myschools = site.data.main.education | sort: 'sdate' | reverse %}
+{% for edu in myschools %}
+* __{{ edu.sdate | date: "%B %Y" }} -- {% if edu.edate %}{{ edu.edate | date: "%B. %Y" }}{%else%}Present{% endif %}__: _{{ edu.degree }}_, {{ edu.institution }}, {{ edu.location }}
 {% endfor %}
 
 ## Experience ##
-{% for apt in site.data.main.appointments %}
-* __{{ apt.date }}__: _{{ apt.title }}_, {{ apt.institution }}, {{ apt.location }}    
+{% assign myexperience = site.data.main.appointments | sort: 'sdate' | reverse %}
+{% for apt in myexperience %}
+* __{{ apt.sdate | date: "%B %Y" }} -- {% if apt.edate %}{{ apt.edate | date: "%B. %Y" }}{%else%}Present{% endif %}__: _{{ apt.title }}_, {{ apt.institution }}, {{ apt.location }}    
 {% endfor %}
 
 ## Awards ##
@@ -54,7 +56,7 @@ title: Curriculum Vitae
 
 ### Peer Review ###
 
-Please see [my Publons page](publons.com/a/1468228/) for a complete list of verified reviews.
+Please see [my Publons page](https://publons.com/a/1468228/){:target="_blank"} for a complete list of verified reviews.
 {% for item in site.data.service.review %}
 * __{{ item.time }}__: {{ item.journal }}
 {% endfor %}
