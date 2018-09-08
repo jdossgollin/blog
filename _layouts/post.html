@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
-
-
+    {% include head.html %}
+    
     <body id="page-top" class="index">
-
-    {% include nav.html %}
-
-    <section id="post">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ page.title }}</h2>
-                    <h3 class="section-subheading text-muted">{{ page.subtitle }}</h3
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                {{ content }}
-		</div>
+    
+    {% include nav_blog.html %}
+    {% include blog_header.html %}
+    
+    <div class="container" style="max-width: 80%;">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-left">{{ page.title }}</h2>
+                {% if page.subtitle %}
+                    <h3 class="section-subheading text-muted text-left">{{ page.subtitle }}</h3>
+                {% endif %}
+                <h4 class="section-subheading text-muted text-left">{{ page.date | date: "%d %B %Y" }}</h3>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="col-lg-10">
+                {{ content }}
+            </div>
+        </div>
+    </div>
 
     {% include footer.html %}
-    {% include modals.html %}
     {% include js.html %}
 
     </body>

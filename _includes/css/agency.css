@@ -460,11 +460,14 @@ ul.collab>li {
 }
 
 .newsitem {
+    margin: 0 auto;
+    padding: 10px;
+}
+.newsitem .newsitem-caption {
     border-width: 1px;
     border-style: dotted;
-    margin: 10px;
-    padding: 10px;
     background-color: #ddd;
+    padding: 10px
 }
 
 .vimeo-wrapper {

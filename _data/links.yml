@@ -1,18 +1,15 @@
 - name: Columbia Water Center
-  description: Check out the cool research my lab is doing to address a wide range of water-related challenges
+  description: My research lab
   url: http://water.columbia.edu
-- name: Columbia Earth and Environmental Engineering Department
-  description: Lots of interesting things happening in my department
+- name: Columbia EAEE
+  description: My academic department at Columbia
   url: http://eee.columbia.edu
 - name: New Haven REACH
-  description: A program I founded which pairs Yale University volunteers and New Haven Public School high school students to navigate the college admissions process together
+  description: A program I founded to help New Haven high school students navigate college admissions
   url: https://www.facebook.com/NewHavenREACH
 - name: My Twitter Profile
   url: https://www.twitter.com/jdossgollin
-  description: Learn what I think about a wide range of science and soccer issues!
-- name: My Medium Page
-  url: https://www.medium.com/@jdossgollin
-  description: The blog page where I occasionally post long-form ideas
+  description: An overload of opinions!
 - name: Upmanu Lall
   description: My Ph.D. advisor
   url: http://www.columbia.edu/~ula2/

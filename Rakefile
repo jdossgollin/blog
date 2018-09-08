@@ -4,11 +4,9 @@ require "tmpdir"
 require "bundler/setup"
 require "jekyll"
 require "jekyll-scholar"
-require "jekyll-display-medium-posts"
 
 # Change your GitHub reponame
 GITHUB_REPONAME = "jdossgollin/jdossgollin.github.io"
-MEDIUM_USERNAME = "jdossgollin"
 
 desc "Generate blog files"
 task :generate do
@@ -26,7 +24,6 @@ task :publish => [:generate] do
 
     pwd = Dir.pwd
     Dir.chdir tmp
-    system "export MEDIUM_USERNAME=${MEDIUM_USERNAME}"
     system "git init"
     system "git add ."
     message = "Site updated at #{Time.now.utc}"

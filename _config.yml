@@ -1,6 +1,6 @@
 url: https://jdossgollin.github.io
-baseurl:
-plugins: ['jekyll-scholar', 'jekyll-display-medium-posts']
+baseurl: ""
+plugins: ['jekyll-scholar']
 
 # Site settings
 title: James Doss-Gollin
@@ -13,16 +13,10 @@ color:
   secondary: 807F83
   secondary-dark: 333
 
-# medium posts
-collections:
-  - medium_posts
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: envelope
     url: mailto:james.doss-gollin@columbia.edu
-  - title: medium
-    url: https://medium.com/@jdossgollin
   - title: github
     url: http://github.com/jdossgollin
   - title: twitter
