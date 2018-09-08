@@ -1,12 +1,15 @@
 - name: Nickolas and Liliana Themelis Fellowship
   institution: Columbia University Fu Foundation School of Engineering and Applied Science
   date: 2018
+  link: http://bulletin.engineering.columbia.edu/named-fellowships
 - name: Graduate Research Fellowship
   institution: National Science Foundation
   date: 2017-2020
+  link: https://www.nsfgrfp.org/
 - name: Presidential Distinguished Fellowship
   institution: Fu Foundation School of Engineering and Applied Science
   date: 2015-2019
+  link: http://eee.columbia.edu/funding-opportunities-1
 - name: Distinction in Mechanical Engineering and Materials Science
   institution: Yale University
   date: 2015
@@ -19,3 +22,4 @@
 - name: Thomas C. Barry Fellowship
   institution: Yale University
   date: 2012
+  link: https://funding.yale.edu/fellowships/yale-fellowships-offered-through

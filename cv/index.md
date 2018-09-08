@@ -9,7 +9,7 @@ title: Curriculum Vitae
 {{ site.data.main.contact.institution }}  
 
 ## Contact ##
-{{ site.data.main.contact.email }}  
+[{{ site.data.main.contact.email }}](mailto:{{ site.data.main.contact.email }})  
 [{{ site.data.main.contact.website }}]({{ site.data.main.contact.website }})
 
 ## Education ##
@@ -24,7 +24,10 @@ title: Curriculum Vitae
 
 ## Awards ##
 {% for award in site.data.awards %}
-*  __{{ award.date }}__: {{ award.institution }} _{{ award.name }}_
+*  __{{ award.date }}__: {{ award.institution }}
+        {% if award.link %}[_{{ award.name }}_]({{ award.link }}){:target="_blank"}
+        {% else %}{{ award.name }}
+        {% endif %}
 {% endfor %}
 
 ## Teaching

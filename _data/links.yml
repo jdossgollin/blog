@@ -28,3 +28,6 @@
 - name: My GitHub Profile
   url: https://github.com/jdossgollin
   description: View, download, and modify all of my research codes.
+- name: My CV
+  url: /cv/
+  description: Learn more about me
