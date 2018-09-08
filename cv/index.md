@@ -78,10 +78,11 @@ Please see [my Publons page](publons.com/a/1468228/) for a complete list of veri
 {% bibliography  --query @inproceedings %}
 
 ### Invited Talks ###
+
 {% assign invitedtalks = site.data.presentations.invited | sort: 'date' | reverse %}
 {% for pres in invitedtalks %}
-* __{{ pres.date }}__: _{{ pres.title }}_.<br />
-    {{ pres.location }}.
+* __{{ pres.date }}__: _{{ pres.title }}_.  
+    {{ pres.location }}{% if pres.format %} ({{ pres.format }}) {% endif %}.
     {% if pres.pdf %}<a href='{{ site.data.main.contact.website }}{{ pres.pdf }}' target='_blank'>
             <i class="fa fa-file-pdf-o"></i>
         </a>
@@ -93,10 +94,11 @@ Please see [my Publons page](publons.com/a/1468228/) for a complete list of veri
 {% endfor %}
 
 ### Workshop Presentations ###
+
 {% assign workshoptalks = site.data.presentations.workshop | sort: 'date' | reverse %}
 {% for pres in workshoptalks %}
-* __{{ pres.date }}__: _{{ pres.title }}_.<br />
-    {{ pres.location }}.
+* __{{ pres.date }}__: _{{ pres.title }}_.  
+    {{ pres.location }}{% if pres.format %} ({{ pres.format }}) {% endif %}.
     {% if pres.pdf %}<a href='{{ site.data.main.contact.website }}{{ pres.pdf }}' target='_blank'>
             <i class="fa fa-file-pdf-o"></i>
         </a>
