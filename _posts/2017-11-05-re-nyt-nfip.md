@@ -1,12 +1,13 @@
 ---
-title: "It's Time for a New Paradigm in Flood Planning"
-author: "James Doss-Gollin"
-date: "2017-11-05"
 layout: post
+title: It's Time for a New Paradigm in Flood Planning
+date: 2017-11-05
+category: opinion
+author: James
 ---
 
-I woke up this morning to read a notification on my phone that New York Times was headlining an [article](https://www.nytimes.com/2017/11/04/business/a-broke-and-broken-flood-insurance-program.html) on the National Flood Insurance Program.
-It's been a busy week for floods (see John Oliver's [feature segment](https://www.youtube.com/watch?v=pf1t7cs9dkc) from last week) and so I'd like to share the perspective of a Ph.D. student studying how we estimate what future floods may be in a particular region and what that means for flood planning -- today I'll focus on domestic flood policy.
+I woke up this morning to read a notification on my phone that New York Times was headlining an [article](https://www.nytimes.com/2017/11/04/business/a-broke-and-broken-flood-insurance-program.html){:target="_blank"} on the National Flood Insurance Program.
+It's been a busy week for floods (see John Oliver's [feature segment](https://www.youtube.com/watch?v=pf1t7cs9dkc){:target="_blank"} from last week) and so I'd like to share the perspective of a Ph.D. student studying how we estimate what future floods may be in a particular region and what that means for flood planning -- today I'll focus on domestic flood policy.
 If you haven't read the Times article, check it out before you keep reading this post (if you've used up all your free articles e-mail me) and if you haven't watched the Jon Oliver piece I highly recommend it as well.
 
 When floods or other natural disasters strike, our TV screens and Twitter feeds tend to flood with images of destruction as we seek charities we can trust with our canned food and money.
@@ -40,7 +41,7 @@ Fundamentally, it means a focus on incentivizing people to reduce their risk exp
 This happens in a couple of ways.
 First, risk should be priced into the risk of particular property, so that someone who wanted a beachfront property in Miami could decide whether the  benefits of living there are worth the increased insurance premium.
 In the same way that people balance cost of living against amenities such as school quality or property tax rate, so too would people pay for building in an area more at-risk for flooding.
-Second, as Clarke and Dercon argue in their book Dull Disasters (available for free [electronically]((http://documents.worldbank.org/curated/en/962821468836117709/Dull-disasters-How-planning-ahead-will-make-a-difference)), response to disaster should be "dull" (cleated with clear criteria for who and what gets aid) rather than negotiated on a case-by-case basis with government agencies.
+Second, as Clarke and Dercon argue in their book Dull Disasters (available for free [electronically]((http://documents.worldbank.org/curated/en/962821468836117709/Dull-disasters-How-planning-ahead-will-make-a-difference)){:target="_blank"}, response to disaster should be "dull" (cleated with clear criteria for who and what gets aid) rather than negotiated on a case-by-case basis with government agencies.
 And finally, it means that local and regional-scale decisions about zoning and infrastructure reflect a coordinated plan to balance development with infrastructure needs and risk of future floods (or other disasters -- the thought process for earthquake, fire, and tornado risk management should be similar).
 
 One key mechanism through which flood risk management would take place is a private insurance market, which allows people (and businesses, though I've focused here on homeowners) to pay a premium that reflects the value of their property and the likelihood of future damage.

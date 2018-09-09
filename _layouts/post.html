@@ -15,7 +15,9 @@
                 {% if page.subtitle %}
                     <h3 class="section-subheading text-muted text-left">{{ page.subtitle }}</h3>
                 {% endif %}
+                {% if page.date %}
                 <h4 class="section-subheading text-muted text-left">{{ page.date | date: "%d %B %Y" }}</h3>
+                {% endif %}
             </div>
         </div>
         <div class="row">
