@@ -4,6 +4,7 @@ title: Paper on Drivers of Heavy Rainfall in the Ohio River Basin in WRR
 date: 2018-03-26
 category: news
 author: James
+comments: True
 ---
 
 My paper with [David Farnham](http://www.davidjfarnham.com/){:target="_blank"} (lead author) and [Upmanu Lall](http://www.columbia.edu/~ula2/){:target="_blank"}
