@@ -1,32 +1,37 @@
-<!-- Blog Section -->
+<!-- Blog posts -->
 <section id="blog" class="{% cycle '', 'bg-light-gray' %}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">
-                        Recent Blog Posts
+                        Most Recent Blog Posts
                     </h2>
                     <h3 class="section-subheading text-muted">
-                        Click <a href={{ site.baseurl }}/allposts/>here</a> to see all
+                        You can also see a complete list of posts indexed by <a href=/allpostschron/> time </a> or by <a href=/allposts/>topic</a>
                     </h3>
                 </div>
             </div>
+        </div>
+        <div class="container">
             <div class="row">
-            {% for post in site.posts %}
-                <div class="container">
-                    <div class="row">
-                        <h4>
-                            <a href={{ site.baseurl }}{{ post.url }}>{{post.title}}</a>
-                        </h4>
-                        <h6 class="text-muted">
-                            {{ post.date | date: "%d %B %Y" }}
-                        </h6>
+                {% assign allposts = site.posts | limit: 6 %}
+                {% for course in allposts %}
+                    <div class="col-md-4 col-sm-4 portfolio-item">
+                        <a href="{{ course.url }}" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="{{ course.thumbnail }}" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h5>{{ course.title }}</h4>
+                            <p class="text-muted text-left">{{ course.excerpt }}</p>
+                            <h6>{{ course.date | date: "%d %B %Y" }}</h6>
+                        </div>
                     </div>
-                    <p>
-                        {{ post.excerpt }}
-                    </p>
-                </div>
-            {% endfor %}
+                {% endfor %}
             </div>
         </div>
-    </section>
+</section>

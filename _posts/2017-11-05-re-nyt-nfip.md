@@ -5,6 +5,7 @@ date: 2017-11-05
 category: opinion
 author: James
 comments: true
+thumbnail: /img/posts/2017-11-05-re-nyt-nfip/nyt-article-fema.jpg
 ---
 
 I woke up this morning to read a notification on my phone that New York Times was headlining an [article](https://www.nytimes.com/2017/11/04/business/a-broke-and-broken-flood-insurance-program.html){:target="_blank"} on the National Flood Insurance Program.

@@ -14,18 +14,16 @@ The following posts are sorted below by year; to see a list of posts sorted by t
             {% assign year = y %}
             <h2 class="blogyear">{{ y}}</h2>
         {% endif %}
-        {% if post.title != null %}
-            <li>
-                <strong>
-                    <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
-                        {{ post.title }}
-                    </a> ({{post.date | date: "%d %B %Y"}})
-                </strong>
-                <br/>
-                <i>
-                    {{ post.excerpt }}
-                </i>
-            </li>
-        {% endif %}
+        <li>
+            <strong>
+                <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+                    {{ post.title }}
+                </a> ({{post.date | date: "%d %B %Y"}})
+            </strong>
+            <br/>
+            <i>
+                {{ post.excerpt }}
+            </i>
+        </li>
     {% endfor %}
 </ul>

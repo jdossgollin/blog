@@ -5,6 +5,7 @@ date: 2018-03-26
 category: news
 author: James
 comments: true
+thumbnail: /img/posts/2018-03-26-Ohio-Floods-WRR/figure-04.jpg
 ---
 
 My paper with [David Farnham](http://www.davidjfarnham.com/){:target="_blank"} (lead author) and [Upmanu Lall](http://www.columbia.edu/~ula2/){:target="_blank"}

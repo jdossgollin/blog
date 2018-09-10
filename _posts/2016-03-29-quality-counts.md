@@ -5,6 +5,7 @@ date: 2016-03-29
 category: opinion
 author: James
 comments: true
+thumbnail: /img/posts/2016-03-29-quality-matters/carapegua.jpg
 ---
 
 Earlier today, I came across an excellent [National Geographic infographic](https://medium.com/r/?url=http%3A%2F%2Fwww.nationalgeographic.com%2Fclean-water-access-around-the-world%2F%23select%2FTOT%2Ftotal){:target="_blank"} showing the proportion of people in various countries and regions of the world lacking access to clean drinking water over time.

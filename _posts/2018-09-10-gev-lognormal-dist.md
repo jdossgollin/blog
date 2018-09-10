@@ -1,11 +1,12 @@
 ---
 layout: post
 title: GEV Marginal Distributions and Log-Normal Conditional Distributions
-date: 2018-09-09
+date: 2018-09-10
 category: analysis
 author: James
 comments: true
 mathjax: true
+thumbnail: /img/posts/2018-09-10-gev-lognormal-dist/index.jpg
 ---
 
 In statistical analysis of hydroclimate data we're often interested in fitting distributions to observed variables such as rainfall and streamflow.
@@ -36,6 +37,5 @@ I won't get into the theory in this post, but it's certainly an interesting ques
 Here's the analysis:
 
 {::nomarkdown}
-{% assign notebook_path = "/notebooks/gev-lognormal.ipynb" %}
-{% jupyter_notebook notebook_path %}
+{% jupyter_notebook "/notebooks/gev-lognormal.ipynb" %}
 {:/nomarkdown}
