@@ -9,8 +9,10 @@ comments: true
 
 I woke up this morning to read a notification on my phone that New York Times was headlining an [article](https://www.nytimes.com/2017/11/04/business/a-broke-and-broken-flood-insurance-program.html){:target="_blank"} on the National Flood Insurance Program.
 It's been a busy week for floods (see John Oliver's [feature segment](https://www.youtube.com/watch?v=pf1t7cs9dkc){:target="_blank"} from last week) and so I'd like to share the perspective of a Ph.D. student studying how we estimate what future floods may be in a particular region and what that means for flood planning -- today I'll focus on domestic flood policy.
-If you haven't read the Times article, check it out before you keep reading this post (if you've used up all your free articles e-mail me) and if you haven't watched the Jon Oliver piece I highly recommend it as well.
 
+<!--more-->
+
+If you haven't read the Times article, check it out before you keep reading this post (if you've used up all your free articles e-mail me) and if you haven't watched the Jon Oliver piece I highly recommend it as well.
 When floods or other natural disasters strike, our TV screens and Twitter feeds tend to flood with images of destruction as we seek charities we can trust with our canned food and money.
 Inspirational volunteers help rebuild communities, federal and state funds support reconstruction, and communities slowly return to life.
 Yet once the disaster passes, we're more likely to analyze how to respond better and faster to the next event than to ask whether we should be rebuilding in the very area that was just destroyed.

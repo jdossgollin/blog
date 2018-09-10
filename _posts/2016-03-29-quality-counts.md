@@ -10,6 +10,8 @@ comments: true
 Earlier today, I came across an excellent [National Geographic infographic](https://medium.com/r/?url=http%3A%2F%2Fwww.nationalgeographic.com%2Fclean-water-access-around-the-world%2F%23select%2FTOT%2Ftotal){:target="_blank"} showing the proportion of people in various countries and regions of the world lacking access to clean drinking water over time.
 The graphic was well-designed, and I felt appropriately optimistic at the declining rates and frustrated by the continued failure to reach 100%.
 But the numbers didn't seem quite right.
+<!--more-->
+
 In particular, a quote about halfway down the page caught my eye:
 
 > Eight out of ten people without access to clean water live in rural areas.

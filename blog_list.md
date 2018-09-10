@@ -5,7 +5,7 @@ title: All Blog Posts
 ---
 
 I post occasionally about interesting news in my professional life, water issues, climate risk, and data analysis.
-Posts are sorted below by category
+The following posts are sorted below by category; to see a list of posts sorted by year [click here](/allpostschron/)
 
 <ul id="archive">
 {% capture site_cats %}{% for cat in site.categories %}{{ cat | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
@@ -22,12 +22,15 @@ Posts are sorted below by category
                 {% for post in site.categories[this_word] %}
                     {% if post.title != null %}
                         <li>
-                            <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
-                                {{ post.title }}
-                            </a> ({{post.date | date: "%d %B %Y"}})
-                            <p>
-                            {{ post.content | strip_html | truncatewords: 45 }}
-                            </p>
+                            <strong>
+                                <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+                                    {{ post.title }}
+                                </a> ({{post.date | date: "%d %B %Y"}})
+                            </strong>
+                            <br/>
+                            <i>
+                                {{ post.excerpt }}
+                            </i>
                         </li>
                     {% endif %}
                 {% endfor %}
@@ -36,7 +39,3 @@ Posts are sorted below by category
     {% endunless %}
 {% endfor %}
 </ul>
-
-<!--[{{post.title}}]({{ site.baseurl }}{{ post.url }})  
-____  
--->

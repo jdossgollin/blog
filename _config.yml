@@ -1,6 +1,6 @@
 url: https://jdossgollin.github.io
 baseurl: ""
-plugins: ['jekyll-scholar']
+plugins: ['jekyll-scholar', 'jekyll-jupyter-notebook']
 
 # Site settings
 title: James Doss-Gollin
@@ -45,3 +45,6 @@ scholar:
   details_link:   Details
 
   query: "@*"
+
+# Read more separator
+excerpt_separator: <!--more-->

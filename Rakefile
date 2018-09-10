@@ -24,6 +24,7 @@ task :publish => [:generate] do
 
     pwd = Dir.pwd
     Dir.chdir tmp
+    system "conda activate jdossgollin"
     system "git init"
     system "git add ."
     message = "Site updated at #{Time.now.utc}"
