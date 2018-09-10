@@ -4,7 +4,7 @@ title: Paper on Paraguay Rainfall and Floods in Journal of Climate
 date: 2018-05-07
 category: news
 author: James
-comments: True
+comments: true
 ---
 
 My paper with [Ángel G. Muñoz](https://iri.columbia.edu/contact/staff-directory/angel-munoz/){:target="_blank"}, [Simon J. Mason](https://iri.columbia.edu/contact/staff-directory/simon-mason/){:target="_blank"}, and [Max Pastén](https://www.researchgate.net/profile/Max_Pasten){:target="_blank"} titled [Heavy Rainfall in Paraguay during the 2015/16 Austral Summer: Causes and Subseasonal-to-Seasonal Predictive Skill](https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0805.1){:target="_blank"} has been published in Journal of Climate!
