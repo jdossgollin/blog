@@ -27,7 +27,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h5>{{ course.title }}</h4>
-                            <p class="text-muted text-left">{{ course.excerpt }}</p>
+                            <p class="text-muted text-left">{{ course.excerpt | strip_html}}</p>
                             <h6>{{ course.date | date: "%d %B %Y" }}</h6>
                         </div>
                     </div>
