@@ -35,7 +35,9 @@
                     {{ content }}
                 </div>
             </div>
-            {% if page.comments %}
+            
+        {% include footer.html %}
+        {% if page.comments %}
             <div id="disqus_thread"></div>
             <script>
             (function() { // DON'T EDIT BELOW THIS LINE
@@ -51,9 +53,7 @@
                     comments powered by Disqus.
                 </a>
             </noscript>            
-            {% endif %}
-
-        {% include footer.html %}
+        {% endif %}
         {% include js.html %}
         
     </body>
