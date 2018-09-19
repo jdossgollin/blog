@@ -22,8 +22,9 @@ The following posts are sorted below by year; to see a list of posts sorted by t
             </strong>
             <br/>
             <i>
-                {{ post.excerpt }}
+                {{ post.excerpt | strip_html }}
             </i>
+            <a href="{{ post.url }}">Read more</a>
         </li>
     {% endfor %}
 </ul>

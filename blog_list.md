@@ -29,8 +29,9 @@ The following posts are sorted below by category; to see a list of posts sorted 
                             </strong>
                             <br/>
                             <i>
-                                {{ post.excerpt }}
+                                {{ post.excerpt | strip_html }}
                             </i>
+                            <a href="{{ post.url }}">Read more</a>
                         </li>
                     {% endif %}
                 {% endfor %}
