@@ -21,15 +21,15 @@ title: Curriculum Vitae
 ## Experience ##
 {% assign myexperience = site.data.main.appointments | sort: 'sdate' | reverse %}
 {% for apt in myexperience %}
-* __{{ apt.sdate | date: "%B %Y" }} -- {% if apt.edate %}{{ apt.edate | date: "%B. %Y" }}{%else%}Present{% endif %}__: _{{ apt.title }}_, {{ apt.institution }}, {{ apt.location }}    
+* __{{ apt.sdate | date: "%B %Y" }} -- {% if apt.edate %}{{ apt.edate | date: "%B. %Y" }}{%else%}Present{% endif %}__: _{{ apt.title }}_. {{ apt.institution }}, {{ apt.location }}.    
 {% endfor %}
 
 ## Awards ##
 {% for award in site.data.awards %}
-*  __{{ award.date }}__: {{ award.institution }}
-        {% if award.link %}[_{{ award.name }}_]({{ award.link }}){:target="_blank"}
-        {% else %}{{ award.name }}
-        {% endif %}
+*  __{{ award.date }}__:
+        {% if award.link %}[_{{ award.name }}_,]({{ award.link }}){:target="_blank"}
+        {% else %}_{{ award.name }}_,
+        {% endif %} {{ award.institution }}.
 {% endfor %}
 
 ## Teaching
