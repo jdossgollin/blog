@@ -38,6 +38,8 @@ title: Curriculum Vitae
 *  __{{ course.semester }}__: {{ course.role }} for {{ course.number }}: _{{ course.name }}_, {{ course.instructor }}, {{ course.size }} students.
 {% endfor %}
 
+Reviews available upon request.
+
 ## Skills ##
 
 ### Languages
@@ -45,6 +47,7 @@ title: Curriculum Vitae
 {% for lang in site.data.language %}
 * __{{ lang.name }}__: {{ lang.level }}
 {% endfor %}
+Writing samples available upon request.
 
 ### Computer Skills
 
@@ -91,8 +94,7 @@ Please see [my Publons page](https://publons.com/a/1468228/){:target="_blank"} f
     {% if pres.pdf %}<a href='{{ site.data.main.contact.website }}{{ pres.pdf }}' target='_blank'>
             <i class="fa fa-file-pdf-o"></i>
         </a>
-    {% endif %}
-    {% if pres.link %}<a href='{{ site.data.main.contact.website }}{{ pres.link }}' target='_blank'>
+    {% endif %}{% if pres.link %}<a href='{{ site.data.main.contact.website }}{{ pres.link }}' target='_blank'>
             <i class="fa fa-external-link"></i>
         </a>
     {% endif %}
@@ -107,8 +109,7 @@ Please see [my Publons page](https://publons.com/a/1468228/){:target="_blank"} f
     {% if pres.pdf %}<a href='{{ site.data.main.contact.website }}{{ pres.pdf }}' target='_blank'>
             <i class="fa fa-file-pdf-o"></i>
         </a>
-    {% endif %}
-    {% if pres.link %}<a href='{{ site.data.main.contact.website }}{{ pres.link }}' target='_blank'>
+    {% endif %}{% if pres.link %}<a href='{{ site.data.main.contact.website }}{{ pres.link }}' target='_blank'>
             <i class="fa fa-external-link"></i>
         </a>
     {% endif %}
