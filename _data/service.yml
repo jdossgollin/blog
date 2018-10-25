@@ -1,9 +1,12 @@
 review:
+  - journal: Journal of Applied Meteorology and Climatology
+    time: 2018
   - journal: Journal of Hydrology
-    time: 2017--Present
+    time: 2017, 2018
   - journal: Oxford Journal of Development Studies
     time: 2017
-professional:
+
+    professional:
   - position: Organizer
     organization: Columbia Earth and Environmental Engineering Student Research Symposium
     time: 2017--2018
