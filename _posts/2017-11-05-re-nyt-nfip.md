@@ -2,7 +2,7 @@
 layout: post
 title: It's Time for a New Paradigm in Flood Planning
 date: 2017-11-05
-category: opinion
+category: water-climate-risk
 author: James
 comments: true
 thumbnail: /img/posts/2017-11-05-re-nyt-nfip/nyt-article-fema.jpg

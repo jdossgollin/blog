@@ -2,7 +2,7 @@
 layout: post
 title: More Flooding in Paraguay
 date: 2018-10-31
-category: analysis
+category: water-climate-risk
 author: James
 comments: true
 mathjax: true
@@ -10,24 +10,21 @@ thumbnail: /img/posts/2018-10-31-paraguay-floods/rainfall-time-series.png
 ---
 
 According to [Floodlist](http://floodlist.com/america/paraguay-asuncion-river-floods-october-2018){:target="_blank"}, over 10000 people in Asunción and other parts of Paraguay have had to leave their homes due to severe flooding on the Lower Paraguay River.
-Since coauthors and I recently wrote a [paper in Journal of Climate](https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0805.1) on the drivers of other floods in this region, I prepared a brief exploration of the recent event to see whether a similar set of mechanisms was at play.
+Since coauthors and I recently wrote a [paper in Journal of Climate](https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0805.1){:target="_blank"} on the drivers of other floods in this region, I prepared a brief exploration of the recent event to see whether a similar set of mechanisms was at play.
 
 <!--more-->
 
 > *El hombre, mis hijos —nos decía—, es como un río. Tiene barraca y orilla. Nace y desemboca en otros ríos. Alguna utilidad debe prestar. Mal río es el que muere en un estero...*  
 Hijo de Hombre, Augusto Roa Bastos
 
-Some of my best memories come from Paraguay, a nation whose fate is closely tied to its rivers.
+Some of my best memories come from Paraguay, a nation whose life is closely linked with its rivers.
 Historically they provided food, water, and navigation; today they provide nearly all of the country's electricity thanks to (sometimes controversial) hydropower projects at Yguazu and Yacyreta.
-However, the fact that most of Paraguay's lie along the Paraguay and the Paraná rivers (which eventually join near Pilar) means that the country is heavily exposed to flooding.
+However, the fact that most of Paraguay's lie along the Paraguay and the Paraná rivers means that the country is heavily exposed to flooding.
 
 Before we dive into analyzing what has caused the most recent floods, a few notes:
 
-- Si usted busca una **versión de este blog en castellano**, estoy trabajando en esto! Como tengo muchas prioridades me encantaría recibir un mensaje de apoyo para saber que alguien está leyendo! :)
+- Si usted busca una **versión de este blog en castellano**, por favor haga clic [aquí!]({{ site.baseurl }}{% post_url 2018-10-31-paraguay-inundaciones %})
 - I reference our paper a few times and I also cite some other academic papers. **If you're interested but can't access a paper, please contact me and I will gladly share a pdf with you**. Paywalls suck!
-- This is a blog post, not an academic paper, so it's likely that I have made some mistakes in the analysis. If you find any, please [contact me](mailto:james.doss-gollin@columbia.edu)!
-- Thanks to [NOAA ESRL](https://www.esrl.noaa.gov/psd/data/composites/day/){:target="_blank"} for making it easy to build plots!
-- This is a living post and I plan to update it in the coming weeks (early November 2018) as I get feedback from a few colleagues. If you're dying to find out how my opinions changed, you can find all versions of this post [on my GitHub](https://github.com/jdossgollin/jdossgollin.github.io).
 
 ## Lower Paraguay River Basin
 
@@ -107,18 +104,28 @@ In our paper we hypothesized that a dipole pattern in the South Central Atlantic
 </p>
 
 Although we hypothesized specifically that this could happen during El Niño years during the summer (December-February), a dipole pattern like the one we identified was active during the current floods.
-The dipole during the current floods appears to be shifted somewhat to the South and East of our sketch (no more than five degrees or so) and again the background mechanism is different.
+The dipole during the current floods appears to be shifted somewhat to the South and East of our sketch (no more than five degrees or so).
 Nonetheless, it **may** have contributed to the rainfall that we observed.
 
-## Further Research
+## Wrapping Up
+
+Thanks for reading this far!
+A few more points in case you're interested
+
+### Further Research 
 
 It wouldn't be fair for me to write a whole post without leaving some space for future reading and future work!
-I'm putting these up in part because I hope that a meteorologist who understands weather far better than I do will look at some of these and say either "duh, of course that's true" or "nope don't waste your time chasing that lead"!
 
-- For more about the relationship between the South American Low-Level Jet and rainfall, see [Marengo 2004](http://journals.ametsoc.org/doi/abs/10.1175/1520-0442%282004%29017%3C2261%3ACOTLJE%3E2.0.CO%3B2){:target="_blank"}  or [Saulo 2007](http://journals.ametsoc.org/doi/abs/10.1175/MWR3317.1){:target="_blank"}. There are lots more and I can't do them all justice.
-- I've talked about the low-level jet, but it's part of a complex system that has been examined through a variety of other perspectives. Some people have considered this region as part of a Monsoon system ([Marengo 2012](http://doi.wiley.com/10.1002/joc.2254){:target="_blank"}). Others have looked at the South American Convergence Zone  [Jones 2018](https://www.nature.com/articles/s41612-018-0050-8){:target="_blank"}. All perspectives seem insightful at this point.
+- For more about the relationship between the South American Low-Level Jet and rainfall, see [this excellent website](http://www.eumetrain.org/satmanu/CMs/Sallj/index.htm){:target="blank} [Marengo 2004](http://journals.ametsoc.org/doi/abs/10.1175/1520-0442%282004%29017%3C2261%3ACOTLJE%3E2.0.CO%3B2){:target="_blank"}  or [Saulo 2007](http://journals.ametsoc.org/doi/abs/10.1175/MWR3317.1){:target="_blank"}. There are lots more and I can't do them all justice.
+- I've talked about the low-level jet, but it's part of a complex system that has been examined through a variety of other perspectives. Some people have considered this region as part of a Monsoon system ([Marengo 2012](http://doi.wiley.com/10.1002/joc.2254){:target="_blank"}). Others have looked at the South Atlantic Convergence Zone  [Jones 2018](https://www.nature.com/articles/s41612-018-0050-8){:target="_blank"}. All perspectives seem insightful at this point.
 - The relationship identified between the dipole pattern in the Atlantic and the low-level jet remains a hypothesis (and a vaguely stated one at that).  We don't have enough data yet to determine how strong this link is but maybe someday we will!
 - Maybe that persistent low to the South-West of South America really matters here?
+
+### Thanks and Disclaimers
+
+- This is a blog post, not an academic paper, so it's likely that I have made some mistakes in the analysis. If you find any, please [contact me](mailto:james.doss-gollin@columbia.edu)!
+- Thanks to [NOAA ESRL](https://www.esrl.noaa.gov/psd/data/composites/day/){:target="_blank"} for making it easy to build plots!
+- This is a living post and I plan to update it in the coming weeks as I get feedback from a few colleagues. You can find all versions of this post [on my GitHub](https://github.com/jdossgollin/jdossgollin.github.io).
 
 ### Footnotes
 
@@ -127,4 +134,4 @@ A few bonus caveats and comments for the conscientious reader:
 [^anomalies]: Of course, if you're interested in how to calculate the seasonal cycle so that we can remove it to identify anomalies you will want to get into the specifics of how it's done. I believe that the web tool I am using estimates the seasonal cycle (aka "Climatology") by taking monthly averages (ie, average all Septembers, average all Octobers, etc). It's a pretty rough approach but tends to give results that are similar to more sophisticated methods.
 [^data-quality]: This isn't the best rainfall data set. Since we're averaging over a relatively long time, we should be more or less covered. To be safe I looked at a few other rainfall data sets and found that this looked reasonable.
 [^reanalysis]: The data I am using comes from reanalysis, which means that it's not a direct observation. But good enough for now!
-[^ocean-atmosphere]: To suggest that the ocean only drives the atmosphere is a gross over-simplification -- the atmosphere also drives the ocean since they are coupled systems and there are many examples of the atmosphere driving ocean variability on these time scales -- but this is a blog post!
+[^ocean-atmosphere]: To suggest that the ocean only drives the atmosphere is a gross over-simplification -- the atmosphere also drives the ocean since they are coupled systems and there are many examples of the atmosphere driving ocean variability on these time scales.

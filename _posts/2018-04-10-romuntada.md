@@ -2,7 +2,7 @@
 layout: post
 title: Gladiators 3 - 0 Aliens
 date: 2018-04-10
-category: opinion
+category: news
 author: James
 comments: true
 thumbnail: /img/posts/2018-04-10-romuntada/instagram.jpg

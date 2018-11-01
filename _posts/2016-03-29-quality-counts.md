@@ -2,7 +2,7 @@
 layout: post
 title: Quality Has to Count in Water Access
 date: 2016-03-29
-category: opinion
+category: water-climate-risk
 author: James
 comments: true
 thumbnail: /img/posts/2016-03-29-quality-matters/carapegua.jpg

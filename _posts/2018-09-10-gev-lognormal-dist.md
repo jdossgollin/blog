@@ -2,7 +2,7 @@
 layout: post
 title: GEV Marginal Distributions and Log-Normal Conditional Distributions
 date: 2018-09-10
-category: analysis
+category: stats-computing
 author: James
 comments: true
 mathjax: true
