@@ -103,7 +103,7 @@ There's lots that one could unpack here, but I'm going to focus on one particula
 In our paper we hypothesized that a dipole pattern in the South Central Atlantic -- we defined it as going from 30W to 10W and 15S to 40S -- could favor "No-Chaco" jet events over "Chaco" jet events and thus increase the probability of heavy rainfall in the Lower Paraguay River Basin.
 
 <p align="center">
-  <img src="/img/posts/2018-10-31-paraguay-floods/sea-surf-temp.png" alt="Sea surface temperature" align="center" height="350">
+  <img src="/img/posts/2018-10-31-paraguay-floods/ChacoNoChacojet.png" alt="Sea surface temperature" align="center" height="350">
 </p>
 
 Although we hypothesized specifically that this could happen during El Niño years during the summer (December-February), a dipole pattern like the one we identified was active during the current floods.
