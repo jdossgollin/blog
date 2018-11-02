@@ -490,6 +490,7 @@ ul.collab>li {
 .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    height: 450px;
 }
 
 .portfolio-item .portfolio-link {
