@@ -34,7 +34,7 @@ scholar:
   order: ascending
 
   source: ./_bibliography
-  bibliography: references.bib
+  bibliography: library.bib
   bibliography_template: bib
 
   replace_strings: true

@@ -10,7 +10,7 @@ thumbnail: /img/posts/2018-10-31-paraguay-floods/rainfall-time-series.png
 ---
 
 Según los periodistas de [Floodlist](http://floodlist.com/america/paraguay-asuncion-river-floods-october-2018){:target="_blank"}, más de 10000 personas en Asunción y otras partes de Paraguay han sido obligados a abandonar sus hogares debido a graves inundaciones del Río Paraguay.
-Desde que yo, junto con tres coautores extraordinarios, acabo de publicar un [artículo en Journal of Climate](https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0805.1){:target="_blank"} sobre los impulsores de lluvias fuertes y inundaciones en esta región, preparé una breve exploración de si los mismos mecanísmos físicos que identificamos provocaron el evento actual.
+Desde que yo, junto con tres coautores extraordinarios, acabo de publicar un artículo en Journal of Climate sobre los impulsores de lluvias fuertes y inundaciones en esta región {% cite DossGollin:2018bn %}, preparé una breve exploración de si los mismos mecanísmos físicos que identificamos provocaron el evento actual.
 
 <!--more-->
 
@@ -65,8 +65,8 @@ Podemos ver que la región que alimenta la región fue particularmente afectada 
 ## Mecanismos Directos
 
 Vale la pena pensar un poco sobre este patrón de lluvia.
-En [nuestro artículo](https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0805.1){:target="_blank"}, encontramos  que las precipitaciones intensas en Paraguay suelen ser provocadas por el Corriente de Vientos de Bajo Nivel de Sudamérica, o en inglés "South American Low-Level Jet", que trae la humedad y la energía (ambas son necesarias para la lluvia) desde la Amazonia hasta el sureste de Sudamérica.
-Este <<corriente>> de humedad e energía puede a veces pasa los 25 grados Sur, en cuyo caso favorecerá la occurencia de lluvias en el norte de Argentina y Uruguay (el llamado ["corriente tipo Chaco"](http://doi.wiley.com/10.1029/2001JD001315){:target="_ blank"}), o puede girar hacia el Este, en cuyo caso favorecerá la lluvia sobre Paraguay y SW Brasil (llamado ["corriento tipo No-Chaco"](http://journals.ametsoc.org/doi/10.1175/BAMS-87-1-63){:target="_blank "}).
+En nuestro artículo {% cite DossGollin:2018bn %}, encontramos  que las precipitaciones intensas en Paraguay suelen ser provocadas por el Corriente de Vientos de Bajo Nivel de Sudamérica, o en inglés "South American Low-Level Jet", que trae la humedad y la energía (ambas son necesarias para la lluvia) desde la Amazonia hasta el sureste de Sudamérica.
+Este <<corriente>> de humedad e energía puede a veces pasa los 25 grados Sur, en cuyo caso favorecerá la occurencia de lluvias en el norte de Argentina y Uruguay (el llamado "corriente tipo Chaco" {% cite Salio:2002ev %}), o puede girar hacia el Este, en cuyo caso favorecerá la lluvia sobre Paraguay y SW Brasil (llamado"corriento tipo No-Chaco {% cite Vera:2006ib %}).
 Si nos fijamos en la figura 6 de nuestro estudio, disponible [en mi página de GitHub](https://github.com/jdossgollin/2018-paraguay-floods/raw/master/figs/wt_composite.pdf){:target="_blank"}, se puede ver que la lluvia observada durante las últimas seis semanas se parece mucho al tipo de tiempo (lo llamamos el número 4) que identificamos como un factor clave de las inundaciónes de 2015-16.
 
 Para tener una mejor idea de cómo se comportó el Corriente de Vientos de Bajo nivel de Sudamérica durante este período, podemos observar las anomalías climáticas que persistieron durante este período.
@@ -120,8 +120,8 @@ Unos cuantos puntos más en caso de que os interese.
 
 ¡No sería justo para mí escribir una publicación completa sin dejar espacio para futuras lecturas y futuros trabajos!
 
-- Para obtener más información sobre la relación entre el Jet de bajo nivel de América del Sur y la lluvia, consulte [esta página de web](http://www.eumetrain.org/satmanu/CMs/Sallj/index.htm){:target="blank}, [Marengo 2004](http://journals.ametsoc.org/doi/abs/10.1175/1520-0442%282004%29017%3C2261%3ACOTLJE%3E2.0.CO%3B2){:target="_ blank"}, o [Saulo 2007](http://journals.ametsoc.org/doi/abs/10.1175/MWR3317.1){:target="_blank"}. Hay muchos más y no puedo hacerles justicia a todos.
-- He hablado sobre el corriente de vientos bajo nivel, pero es parte de un sistema complejo que se ha examinado a través de una variedad de otras perspectivas. Algunas personas han considerado esta región como parte de un sistema <<Monsoon>> ([Marengo 2012](http://doi.wiley.com/10.1002/joc.2254){:target="_blank"}). Otros han escrito sobre la <<Zona de convergencia del Océano Atlántico del Sur>> ([Jones 2018](https://www.nature.com/articles/s41612-018-0050-8){:target="_blank"}). Todas las perspectivas parecen útiles y aún estamos aprendiendo mucho.
+- Para obtener más información sobre la relación entre el Jet de bajo nivel de América del Sur y la lluvia, consulte la literatura académica {% cite Marengo:2004kr Boers:2013jh Salio:2007gd %} o [esta página excelente](http://www.eumetrain.org/satmanu/CMs/Sallj/index.htm){:target="blank}.
+- He hablado sobre el corriente de vientos bajo nivel, pero es parte de un sistema complejo que se ha examinado a través de una variedad de otras perspectivas. Algunas personas han considerado esta región como parte de un sistema <<Monsoon>> {% cite Marengo:2012cm %}. Otros han escrito sobre la <<Zona de convergencia del Océano Atlántico del Sur>> {% cite Nielsen:2018ep Carvalho:2004ix Carvalho2002 %}. Todas las perspectivas parecen útiles y aún estamos aprendiendo mucho.
 - La relación identificada entre el dipolo en el Atlántico y el corriente de bajo nivel sigue siendo una hipótesis. Aún no tenemos datos suficientes para determinar absolutamente qué tan fuerte es la conección.
 
 ### Gracias y renuncias
@@ -129,6 +129,12 @@ Unos cuantos puntos más en caso de que os interese.
 - Esta es una publicación de blog, no un artículo académico, por lo que es probable que haya cometido algunos errores en el análisis. Si encuentra alguno, por favor [contácteme](mailto:james.doss-gollin@columbia.edu)!
 - ¡Gracias a [NOAA ESRL](https://www.esrl.noaa.gov/psd/data/composites/day/){:target="_blank"} por proveer los datos y mapas
 - Esta es una publicación viva y tengo la intención de actualizarla en las próximas semanas, ya que recibo comentarios de algunos colegas. Podrá encontrar todas las versiones de esta publicación [en mi GitHub](https://github.com/jdossgollin/jdossgollin.github.io).
+
+### Bibliografía
+
+_Para una copia de cualquier artículo en formato PDF, por favor contácteme_.
+
+{% bibliography --cited %}
 
 ### Notas al pie
 

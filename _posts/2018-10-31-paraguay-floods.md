@@ -10,7 +10,7 @@ thumbnail: /img/posts/2018-10-31-paraguay-floods/rainfall-time-series.png
 ---
 
 According to [Floodlist](http://floodlist.com/america/paraguay-asuncion-river-floods-october-2018){:target="_blank"}, over 10000 people in Asunción and other parts of Paraguay have had to leave their homes due to severe flooding on the Lower Paraguay River.
-Since coauthors and I recently wrote a [paper in Journal of Climate](https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0805.1){:target="_blank"} on the drivers of other floods in this region, I prepared a brief exploration of the recent event to see whether a similar set of mechanisms was at play.
+Since coauthors and I recently wrote a paper in Journal of Climate on the drivers of other floods in this region {% cite DossGollin:2018bn %}, I prepared a brief exploration of the recent event to see whether a similar set of mechanisms was at play.
 
 <!--more-->
 
@@ -62,8 +62,8 @@ We can see that the region feeding the _Lower_ Paraguay River Basin got far hit 
 ## Direct Drivers
 
 It's worth thinking a bit about this rainfall pattern.
-In [our paper](https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0805.1){:target="_blank"}, we found (consistent with many other studies) that intense rainfall in Paraguay is typically driven by the "South American Low-Level Jet", which channels moisture and energy (both are needed for rain storms) from the Amazon to South East South America.
-This low-level jet can either break past 25 degrees S, in which case it will favor rainfall in Northern Argentina and Uruguay (["Chaco jet event"](http://doi.wiley.com/10.1029/2001JD001315){:target="_blank"}), or it can turn to the East, in which case it will favor rainfall over Paraguay and SW Brazil (["No-Chaco Jet Events"](http://journals.ametsoc.org/doi/10.1175/BAMS-87-1-63){:target="_blank"}).
+In our paper {% cite DossGollin:2018bn %}, we found (consistent with many other studies) that intense rainfall in Paraguay is typically driven by the "South American Low-Level Jet", which channels moisture and energy (both are needed for rain storms) from the Amazon to South East South America.
+This low-level jet can either break past 25 degrees S, in which case it will favor rainfall in Northern Argentina and Uruguay ("Chaco jet event") {% cite Salio:2002ev %}, or it can turn to the East, in which case it will favor rainfall over Paraguay and SW Brazil ("No-Chaco Jet Events") {% cite Vera:2006ib %}.
 If you look at our figure 6, available [on my GitHub page](https://github.com/jdossgollin/2018-paraguay-floods/raw/master/figs/wt_composite.pdf){:target="_blank"}, you can see that the rainfall observed over the past six weeks looks a lot like the weather type (we labeled it number 4) that we identified as a key driver of the 2015-16 flooding.
 
 To get a better sense of how the low-level jet behaved during this period, we can look at climate anomalies that persisted during this time period.
@@ -116,8 +116,8 @@ A few more points in case you're interested
 
 It wouldn't be fair for me to write a whole post without leaving some space for future reading and future work!
 
-- For more about the relationship between the South American Low-Level Jet and rainfall, see [this excellent website](http://www.eumetrain.org/satmanu/CMs/Sallj/index.htm){:target="blank} [Marengo 2004](http://journals.ametsoc.org/doi/abs/10.1175/1520-0442%282004%29017%3C2261%3ACOTLJE%3E2.0.CO%3B2){:target="_blank"}  or [Saulo 2007](http://journals.ametsoc.org/doi/abs/10.1175/MWR3317.1){:target="_blank"}. There are lots more and I can't do them all justice.
-- I've talked about the low-level jet, but it's part of a complex system that has been examined through a variety of other perspectives. Some people have considered this region as part of a Monsoon system ([Marengo 2012](http://doi.wiley.com/10.1002/joc.2254){:target="_blank"}). Others have looked at the South Atlantic Convergence Zone  [Jones 2018](https://www.nature.com/articles/s41612-018-0050-8){:target="_blank"}. All perspectives seem insightful at this point.
+- For more about the relationship between the South American Low-Level Jet and rainfall, see the academic literature {% cite Marengo:2004kr Boers:2013jh Salio:2007gd %} or [this excellent website](http://www.eumetrain.org/satmanu/CMs/Sallj/index.htm){:target="blank}.
+- I've talked about the low-level jet, but it's part of a complex system that has been examined through a variety of other perspectives. Some people have considered this region as part of a Monsoon system {% cite Marengo:2012cm %}. Others have looked at the South Atlantic Convergence Zone {% cite Nielsen:2018ep Carvalho:2004ix Carvalho2002 %}. All perspectives seem insightful at this point.
 - The relationship identified between the dipole pattern in the Atlantic and the low-level jet remains a hypothesis (and a vaguely stated one at that).  We don't have enough data yet to determine how strong this link is but maybe someday we will!
 - Maybe that persistent low to the South-West of South America really matters here?
 
@@ -126,6 +126,12 @@ It wouldn't be fair for me to write a whole post without leaving some space for 
 - This is a blog post, not an academic paper, so it's likely that I have made some mistakes in the analysis. If you find any, please [contact me](mailto:james.doss-gollin@columbia.edu)!
 - Thanks to [NOAA ESRL](https://www.esrl.noaa.gov/psd/data/composites/day/){:target="_blank"} for making it easy to build plots!
 - This is a living post and I plan to update it in the coming weeks as I get feedback from a few colleagues. You can find all versions of this post [on my GitHub](https://github.com/jdossgollin/jdossgollin.github.io).
+
+### References
+
+_If you cannot access one ore more of these papers and would like to, please contact me for a PDF_.
+
+{% bibliography --cited %}
 
 ### Footnotes
 

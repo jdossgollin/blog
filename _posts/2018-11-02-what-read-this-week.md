@@ -25,12 +25,11 @@ I **hope** to bring other people into the conversation; either in the comments o
 
 ## Let's Dive In
 
-I started this week by refreshing [some](10.1198/000313008X332421) of my [favorite](https://doi.org/10.1198/000313006X152649) papers on statistics and interpretation of $$p$$-values for a paper I was reviewing.
-I also read some interesting [papers](http://www.sciencedirect.com/science/article/pii/S2212420917302741) and [reports](https://openknowledge.worldbank.org/handle/10986/29623) on managing water and climate risk.
-I even saw [Lee and Sheridan](https://www.nature.com/articles/s41612-018-0051-7) use [weather](http://journals.ametsoc.org/doi/10.1175/JCLI-D-17-0805.1) [types](http://journals.ametsoc.org/doi/10.1175/JCLI-D-17-0115.1) to assess how weather patterns have changed in space and time.
+I started this week by refreshing some of my favorite papers on statistics and interpretation of $$p$$-values for a paper I was reviewing {% cite gelman:2006 murdoch:2008 %}.
+I also read an interesting paper on the use of ecosystems for disaster risk management {% cite mcvittie:2018 %} and an interesting paper using wether types {% cite Michelangeli:1995es Munoz:2015dc DossGollin:2018bn %} to diagnose how weather patterns have changed in space and time {% cite lee:2018 %}.
 
 However, the paper I want to highlight this week is "An interdisciplinary research agenda to explore the
-unintended consequences of structural flood protection" by _Di Baldassarre et al_, [published in HESS Opinions](https://doi.org/10.5194/hess-22-5629-2018).
+unintended consequences of structural flood protection" {% cite baldassarre:2018 %}.
 
 I think of myself as someone who thinks about risk (i.e., flood risk) through a "systems" lens, but I don't spend very much time thinking about human psychology or how we make decisions.
 In this paper, _Di Baldassarre et al_ describe the "levee effect", sketched below, in which "increasing levels of flood protection can also be associated with unexpected increases in flood exposure."
@@ -57,3 +56,9 @@ I fully agree.
 As an engineer I often think about projects (i.e, flood risk mitigation projects) as a cost-benefit assessment, in which the benefits should consider the value of property protected and new economic development allowed.
 This review paper highlights that we should also consider how these effects will change the potential costs.
 As we continue to learn about feedback loops in the levee effect, we should consider combining structural flood protection with policies, such as strict zoning or mandates for insurance, that can help keep our exposure in check.
+
+## References
+
+_If you cannot access one ore more of these papers and would like to, please contact me for a PDF_.
+
+{% bibliography --cited %}

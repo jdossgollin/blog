@@ -77,13 +77,13 @@ Please see [my Publons page](https://publons.com/a/1468228/){:target="_blank"} f
 ## Publications & Presentations ##
 
 ### Peer-Reviewed Articles ###
-{% bibliography  --query @article %}
+{% bibliography --file MyPapers --query @article %}
 
 ### In Preparation / Under Review
-{% bibliography --query @unpublished %}
+{% bibliography --file MyPapers --query @unpublished %}
 
 ### Conference Presentations ###
-{% bibliography  --query @inproceedings %}
+{% bibliography --file MyPapers --query @inproceedings %}
 
 ### Invited Talks ###
 
