@@ -38,8 +38,6 @@ title: Curriculum Vitae
 *  __{{ course.semester }}__: {{ course.role }} for {{ course.number }}: _{{ course.name }}_, {{ course.instructor }}, {{ course.size }} students.
 {% endfor %}
 
-Reviews available upon request.
-
 ## Skills ##
 
 ### Languages
@@ -47,7 +45,6 @@ Reviews available upon request.
 {% for lang in site.data.language %}
 * __{{ lang.name }}__: {{ lang.level }}
 {% endfor %}
-Writing samples available upon request.
 
 ### Computer Skills
 
