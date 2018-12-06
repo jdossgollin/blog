@@ -12,7 +12,8 @@ SITEDESCRIPTION = 'Personal and research blog of James Doss-Gollin'
 SITEURL = 'http://localhost:8000'
 PATH = 'content'
 TIMEZONE = 'America/New_York'
-STATIC_PATHS = ['images', 'extras/CNAME', 'extras/library.bib']
+STATIC_PATHS = ['images', 'extra/CNAME', 'extra/library.bib']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 DEFAULT_LANG = 'en'
 
@@ -49,7 +50,7 @@ PLUGINS = [
 ]
 MARKUP = ('md', 'ipynb', 'rst')
 IPYNB_USE_METACELL = True
-PUBLICATIONS_SRC = 'content/extras/library.bib'
+PUBLICATIONS_SRC = 'content/extra/library.bib'
 
 # THEME AND SETUP
 THEME = 'pelican-themes/Flex'
