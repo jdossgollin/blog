@@ -9,7 +9,7 @@ SITENAME = 'Blog'
 SITEDESCRIPTION = 'Personal and research blog of James Doss-Gollin'
 
 # Update this value in publishconf.py with the published site
-SITEURL = 'http://localhost:8000/'
+SITEURL = 'http://localhost:8000'
 PATH = 'content'
 TIMEZONE = 'America/New_York'
 STATIC_PATHS = ['images', 'extras/CNAME', 'extras/library.bib']
