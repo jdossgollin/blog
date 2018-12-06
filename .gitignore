@@ -1,5 +1,6 @@
 _site
 .tweet-cache/
+output/*
 
 # Windows image file caches
 Thumbs.db

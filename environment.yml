@@ -3,5 +3,17 @@ channels:
     - conda-forge
     - defaults
 dependencies:
-    - python=3.6    # Python version 3.6
-    - jupyter       # Jupyter federation architecture
+    - python>=3.6
+    - beautifulsoup4
+    - ghp-import
+    - ipython>=4.0
+    - jupyter>=1.0
+    - Markdown
+    - matplotlib
+    - mypy
+    - nbconvert>=4.0
+    - pelican
+    - pybtex
+    - pylint
+    - scipy
+    - xarray
