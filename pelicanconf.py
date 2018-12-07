@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 SITETITLE = 'Water & Climate Risk Blog'
 SITESUBTITLE = 'by James Doss-Gollin'
 AUTHOR = 'James Doss-Gollin'
-SITENAME = 'Blog'
+SITENAME = 'James Doss-Gollin'
 SITEDESCRIPTION = 'Personal and research blog of James Doss-Gollin'
 
 # Update this value in publishconf.py with the published site
