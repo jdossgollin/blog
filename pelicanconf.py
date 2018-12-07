@@ -34,7 +34,6 @@ SOCIAL = (
     ('github', 'https://github.com/jdossgollin'),
     ('twitter', 'https://twitter.com/jdossgollin'),
     ('linkedin', 'https://www.linkedin.com/in/jamesdossgollin/'),
-    ('researchgate', 'https://www.researchgate.net/profile/James_Doss-Gollin')
 )
 DISQUS_SITENAME = 'jdossgollin'
 
