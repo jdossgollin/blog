@@ -36,7 +36,7 @@ SOCIAL = (
     ('linkedin', 'https://www.linkedin.com/in/jamesdossgollin/'),
     ('researchgate', 'https://www.researchgate.net/profile/James_Doss-Gollin')
 )
-
+DISQUS_SITENAME = 'jdossgollin'
 
 DEFAULT_PAGINATION = 10
 
