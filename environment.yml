@@ -17,3 +17,5 @@ dependencies:
     - pylint
     - scipy
     - xarray
+    - pip:
+        - titlecase
