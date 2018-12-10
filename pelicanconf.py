@@ -12,7 +12,7 @@ SITEDESCRIPTION = 'Personal and research blog of James Doss-Gollin'
 SITEURL = 'http://localhost:8000'
 PATH = 'content'
 TIMEZONE = 'America/New_York'
-STATIC_PATHS = ['images', 'extra/CNAME', 'extra/library.bib']
+STATIC_PATHS = ['images', 'extra/CNAME', 'extra/library.bib', 'pdf']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 DEFAULT_LANG = 'en'
