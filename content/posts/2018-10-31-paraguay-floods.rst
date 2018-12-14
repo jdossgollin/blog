@@ -29,7 +29,7 @@ It's helpful to refresh ourselves on the geography of this region.
 Figure 1(b) from our paper shows the Lower Paraguay River Basin; the capital city Asunción is shown with the letters ASU.
 
 One relevant feature of this region is that it's extremely flat.
-This is shown by the contours (strictly speaking they show $\log_{10}$ of elevation, in meters).
+This is shown by the contours (strictly speaking they show :math:`\log_{10}` of elevation, in meters).
 As a consequence, rainfall that falls here tends to take a long time to drain once the soils are saturated.
 This means that above-average rainfall over a long time can cause flooding, even if none of the individual storms are particularly heavy.
 
