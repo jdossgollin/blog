@@ -8,7 +8,7 @@
 :summary: Slides for my 2018 AGU Talk "Robust Adaptation to Multi-Scale Risk"
 
 I'm giving a talk this morning at the American Geophysical Union 2018 Fall Meeting in the session titled `H52F: Toward Better Water Planning and Management in an Uncertain World <https://agu.confex.com/agu/fm18/meetingapp.cgi/Session/62105>`_.
-You can view a PDF of my slides `here <{static}/pdf/2018-12-14-robust-adaptation-agu.pdf>`_.
+You can view a PDF of my slides `here <https://doi.org/10.13140/RG.2.2.28447.20649>`_.
 
 Here's my abstract
 
