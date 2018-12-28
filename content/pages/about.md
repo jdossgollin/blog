@@ -10,17 +10,13 @@ If I'm not in the office, you can probably hear me yelling my support for [La Al
 
 ## What I Do
 
-We know that the climate is changing, but the needs of society are also changing in important -- and often unpredictable -- ways.
-Urbanization, population growth, and shifts in technology all affect the ways in which society is exposed to water and climate extremes such as droughts, floods, hurricanes, and wildfires.
-
-One way to manage the risks associated with these events is by building large and permanent infrastructure projects, such as a [giant sea wall](https://en.wikipedia.org/wiki/Maeslantkering){:target="_blank"} or a dam.
-However, these projects often have large environmental and social costs.
-Further, once they are built it is difficult to change their size, location, or construction, and as a consequence they may perform poorly if the future climate is not what the structure was designed for, or if the needs of society shift in unexpected ways.
-
-The overarching goal of my research is to develop methods for identifying when it makes sense to build large and permanent structures to manage climate risk, and when a portfolio or smaller and more flexible projects may be preferable.
-This question depends heavily on projections of future climate, so I also work on understanding the physical mechanisms that control water and climate risk, and on predicting how they may change in the future.
-Consequently, my work seeks to integrate principles from the fields of statistics, machine learning, optimization, operations research, hydrology, and climate dynamics.
-I also enjoy considering ideas from the social sciences, humanities, and philosophy because I believe that:
+My work focuses on planning water systems and managing hydroclimate risk under uncertainty.
+This is a fascinating question which has led me through many distinct disciplines.
+For example, decision theory and operations research inform how we make decisions under uncertainty, and also how we approximate these decision-making processes so that we can solve them computationally.
+Climate science and hydrology determine the structure of the uncertainties that we wish to manage, such as the probability of flood or drought far in the future.
+We can't answer these questions perfectly, but science can help us understand what is plausible.
+Statistics also informs how we estimate these probabilities, and is particularly useful for combining data and estimates from distinct sources -- each of which has its own advantages and limitations.
+Ideas from the social sciences, humanities, and philosophy are also key because
 
 > The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge    
 > -- [Daniel J. Boorstin](https://www.goodreads.com/quotes/68927-the-greatest-enemy-of-knowledge-is-not-ignorance-it-is){:target="blank"}
