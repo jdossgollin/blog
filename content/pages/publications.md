@@ -4,7 +4,7 @@ order: 10
 slug: publications
 ---
 
-For a complete list of my publications, please see [my cv](https://jamesdossgollin.me/fullcv/CV_Doss-Gollin_James.pdf){:target="_blank"}.
+For a complete list of my publications, including conference presentations, please see [my cv](https://jamesdossgollin.me/fullcv/CV_Doss-Gollin_James.pdf){:target="_blank"}.
 You can also visit my profiles on the following sites, which *should* have updated information:
 
 * [My CV](https://jamesdossgollin.me/fullcv/CV_Doss-Gollin_James.pdf)
@@ -14,3 +14,9 @@ You can also visit my profiles on the following sites, which *should* have updat
 * [Google Scholar](https://scholar.google.com/citations?user=6ifLBBsAAAAJ&hl=en){:target="blank"}
 
 If you would like a **copy of a paper** but are not able to access it because of paywalls, please [email me](mailto:james-dossgollin@columbia.edu) and I'll be delighted to send you a copy!
+
+<!--
+[@DossGollin:2018bn]
+[@Farnham:2018gs]
+[@DossGollin:2015hf]
+-->
