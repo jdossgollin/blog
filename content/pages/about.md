@@ -10,16 +10,10 @@ If I'm not in the office, you can probably hear me yelling my support for [La Al
 
 ## What I Do
 
-My work focuses on planning water systems and managing hydroclimate risk under uncertainty.
-This is a fascinating question which has led me through many distinct disciplines.
-For example, decision theory and operations research inform how we make decisions under uncertainty, and also how we approximate these decision-making processes so that we can solve them computationally.
-Climate science and hydrology determine the structure of the uncertainties that we wish to manage, such as the probability of flood or drought far in the future.
-We can't answer these questions perfectly, but science can help us understand what is plausible.
-Statistics also informs how we estimate these probabilities, and is particularly useful for combining data and estimates from distinct sources -- each of which has its own advantages and limitations.
-Ideas from the social sciences, humanities, and philosophy are also key because
-
-> The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge    
-> -- [Daniel J. Boorstin](https://www.goodreads.com/quotes/68927-the-greatest-enemy-of-knowledge-is-not-ignorance-it-is){:target="blank"}
+**I work on risk management problems at the intersection of infrastructure and climate.**
+I'm especially interested in trade-offs between long- and short-term investments in climate adaptation, and their dependence on climate predictability at different timescales.
+I'm also interested in studying the ways that climate risk aggregates -- across space, across time, and along supply chains -- particularly the supply chains of critical resources such as water and energy.
+Making progress answering these deep questions drives my work in climate dynamics, hydrology, statistics, and operations research.
 
 ## Why I Do It
 
