@@ -10,10 +10,9 @@ If I'm not in the office, you can probably hear me yelling my support for [La Al
 
 ## What I Do
 
-**I work on risk management problems at the intersection of infrastructure and climate.**
-I'm especially interested in trade-offs between long- and short-term investments in climate adaptation, and their dependence on climate predictability at different timescales.
-I'm also interested in studying the ways that climate risk aggregates -- across space, across time, and along supply chains -- particularly the supply chains of critical resources such as water and energy.
-Making progress answering these deep questions drives my work in climate dynamics, hydrology, statistics, and operations research.
+**I work on water and climate risk management problems at the intersection of physical science, statistics, operations research, and engineering.**
+I'm especially interested in trade-offs between long- and short-term investments in climate adaptation, and how we can use climate predictability at different timescales to inform them.
+I'm also interested in studying the ways that climate risk aggregates -- across space, across time, and along supply chains -- particularly including supply chains for critical resources such as water and energy.
 
 ## Why I Do It
 
