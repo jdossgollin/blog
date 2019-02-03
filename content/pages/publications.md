@@ -7,7 +7,7 @@ slug: publications
 This page contains a list of my published papers.
 You can also visit the following sites, which *should* have updated information:
 
-* [My CV](https://jamesdossgollin.me/fullcv/CV_Doss-Gollin_James.pdf) has both
+* [My CV](https://jamesdossgollin.me/fullcv/CV_Doss-Gollin_James.pdf) has a complete list of academic papers, conference papers, and presentations.
 * [Google Scholar](https://scholar.google.com/citations?user=6ifLBBsAAAAJ&hl=en){:target="blank"}
 * [ORCID](https://orcid.org/0000-0002-3428-2224){:target="_blank"}
 * [ResearcherID](https://researcherid.com/rid/J-4273-2014){:target="_blank"}
