@@ -1,7 +1,7 @@
 :title: It's Time for a New Paradigm in Flood Planning
 :author: James Doss-Gollin
 :date: 2017-11-05
-:category: water-climate-risk
+:category: opinion
 :tags: English, flood, risk, insurance
 :slug: 2017-nyt-nfip
 :summary: There's merit in recent critiques of the National Flood Insurance Program

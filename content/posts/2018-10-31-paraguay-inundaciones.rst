@@ -1,7 +1,7 @@
 :title: Nuevas Inundaciones en Paraguay
 :author: James Doss-Gollin
 :date: 2018-10-31
-:category: water-climate-risk
+:category: analysis
 :tags: Español, climate, papers
 :slug: 2018-nuevas-inundaciones-paraguay
 :summary: Explorando los mecanismos físicos que provocaran las últimas inundaciones en Paraguay

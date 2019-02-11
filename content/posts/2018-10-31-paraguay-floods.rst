@@ -1,7 +1,7 @@
 :title: More Flooding in Paraguay
 :author: James Doss-Gollin
 :date: 2018-10-31
-:category: water-climate-risk
+:category: analysis
 :tags: English, climate, papers
 :slug: 2018-more-floods-paraguay
 :summary: Exploring the physical drivers of recent flooding in Paraguay

@@ -42,10 +42,11 @@ DEFAULT_PAGINATION = 10
 # PLUGINS AND SETTINGS
 PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = [
-    'pelican-cite',
     'ipynb.markup',
-    'pelican_youtube',
     'render_math',
+    'pelican_advance_embed_tweet',
+    'pelican-cite',
+    'pelican_youtube',
 ]
 MARKUP = ('md', 'ipynb', 'rst')
 IPYNB_USE_METACELL = True

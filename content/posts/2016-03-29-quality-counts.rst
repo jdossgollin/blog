@@ -1,7 +1,7 @@
 :title: Quality Has to Count in Water Access
 :author: James Doss-Gollin
 :date: 2016-03-29
-:category: water-climate-risk
+:category: opinion
 :tags: English, water-quality, development, WASH
 :slug: 2016-quality-counts
 :summary: We need better measures of access to safe drinking water, particularly in the developing world

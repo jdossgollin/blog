@@ -1,7 +1,7 @@
 :title: Robust Adaptation to Multi-Scale Risk
 :author: James Doss-Gollin
 :date: 2018-12-14
-:category: talks
+:category: presentations
 :tags: English, climate, risk
 :slug: 2018-robust-adaptation-agu
 :math: true
