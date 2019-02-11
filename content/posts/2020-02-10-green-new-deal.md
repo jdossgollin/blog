@@ -11,18 +11,19 @@ summary: How can we combine climate adaptation and climate change mitigation for
 
 If you've been following the news this week, you probably heard about the proposed Green New Deal:
 
-@GideonResnick/status/1093507478409695232
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/AOC?ref_src=twsrc%5Etfw">@AOC</a> on Green New Deal: &quot;Even the solutions that we have considered big and bold are nowhere near the scale of the actual problem that climate change presents to us to our country, to the world.&quot; <a href="https://t.co/H0qKijUcKL">https://t.co/H0qKijUcKL</a></p>&mdash; Gideon Resnick (@GideonResnick) <a href="https://twitter.com/GideonResnick/status/1093507478409695232?ref_src=twsrc%5Etfw">February 7, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-First and foremost, @AOC and colleagues deserve enormous credit for making a bold case to the public that dramatic action is needed **now** to mitigate climate change.
-To paraphrase NASA GISS scientist @ClimateOfGavin, the best time to deal with climate change was 15 years ago; the next best time is now.
-@AOC and her colleagues deserve massive credit for explaining, in terms everyone can understand, how climate is linked to most social, political, and economic ills in the United States and around the world.
-So while the rest of this post is going to take a critical tone, I'm incredibly thankful for the way in which @AOC and colleagues have gotten the country talking about climate change; **shifting the debate is, in and of itself, a huge accomplishment**.
+First and foremost, AOC and colleagues deserve enormous credit for making a bold case to the public that dramatic action is needed **now** to mitigate climate change.
+To paraphrase NASA GISS scientist Gavin Schmidt, the best time to deal with climate change was 15 years ago; the next best time is now.
+AOC and her colleagues deserve massive credit for explaining, in terms everyone can understand, how climate is linked to most social, political, and economic ills in the United States and around the world.
+So while the rest of this post is going to take a critical tone, I'm incredibly thankful for the way in which AOC and colleagues have gotten the country talking about climate change; **shifting the debate is, in and of itself, a huge accomplishment**.
 
 ## What's in the GND?
 
-The [official version](https://apps.npr.org/documents/document.html?id=5729033-Green-New-Deal-FINAL) of the Green New Deal was released as a nonbinding resolution by @AOC and @SenMarkey.
+The [official version](https://apps.npr.org/documents/document.html?id=5729033-Green-New-Deal-FINAL) of the Green New Deal was released as a nonbinding resolution by AOC and Ed Markey.
 As such, it doesn't offer a ton of strict policy proposals; rather,it calls for "10-year national mobilizations" towards a series of goals that the bill lays out.
-Per @titonka of @nprpolitics, key proposals include:
+Per Danielle Kurtzleben of NPR Politics, key proposals include:
 
 * meeting 100 percent of the power demand in the United States through clean, renewable, and zero-emission energy sources;
 * transition away from fossil fuels and nuclear energy;
@@ -33,7 +34,7 @@ Per @titonka of @nprpolitics, key proposals include:
 * "High-quality health care" for all Americans.
 
 In other words, this legislation isn't just about the climate.
-@JHWeissmann of @Slate gave a good description in a recent [article](https://slate.com/business/2019/02/green-new-deal-faq-ocasio-cortez-rollout-confusion.html):
+Jordan Weissmann of Slate gave a good description in a recent [article](https://slate.com/business/2019/02/green-new-deal-faq-ocasio-cortez-rollout-confusion.html):
 
 > Green New Dealers don’t merely want to avert climate catastrophe but also intend to use the crisis as a chance to rebuild the foundations of the U.S. economy, much the way FDR did during the Great Depression. 
 
@@ -50,7 +51,7 @@ To make these points I'll borrow heavily from other peoples' Twitter posts.
 ## Insufficient focus on cities and transport
 
 The first and biggest problem with the GND is that it places insufficient focus on where we live, which is a crucial driver of emissions related to transit, home heating, logistics, and much more.
-@alexbaca of @Slate wrote a fantastic piece titled [The Green New Deal's Huge Flaw](https://slate.com/business/2019/02/green-new-deal-alexandria-ocasio-cortez-flaw-land-use.html) which is excellent; rather than garbling her message, I'm going to summarize a few key points and *strongly encourage you to read it.*
+Alex Baca of Slate wrote a fantastic piece titled [The Green New Deal's Huge Flaw](https://slate.com/business/2019/02/green-new-deal-alexandria-ocasio-cortez-flaw-land-use.html) which is excellent; rather than garbling her message, I'm going to summarize a few key points and *strongly encourage you to read it.*
 
 Starting in the mid 20th century, the federal government embarked on a massive social engineering project: the Interstate Highway System.
 The project's massive price was justified by classifying it under national defense, rather than transportation, but the construction of the interstate highways radically and rapidly re-shaped the country by prioritizing cars and sprawl over alternative transit and urbanization.
@@ -67,7 +68,7 @@ In this world, cars are a necessity, not a luxury.
 Consequently, shifting the cars on the road from gas to electricity (or hydrogen fuel cells) can help us manage the emissions from all this driving.
 
 Still, we could and should do more.
-As @alexbaca puts it, even if all cars in the world switched to electricity,
+As Baca puts it, even if all cars in the world switched to electricity,
 
 > half of the world’s consumption of oil would remain untouched... sprawl requires us to spend more time and more money to reach the places we need to go.
 
@@ -77,7 +78,7 @@ I'll wrap this section up with Baca's take
 
 > Unsprawling America isn’t as hard as it sounds, because America is suffering from a critical, once-in-a-lifetime housing shortage. The National Low Income Housing Coalition reported last year that the U.S. has a national deficit of more than 7.2 million affordable and available rental homes for families most in need. Of course, if we build those homes in transit-accessible places, we can save their occupants time and money. But the scale of housing demand at this moment is such that we could build them in car-centric suburbs, too, and provide a human density that would not just support transit but also reduce the need to travel as shops, jobs, and schools crop up within walking distance.
 
-Future iterations of the Green New Deal should make this unsprawling a central priority; for further reading, read [Baca's Slate article](https://slate.com/business/2019/02/green-new-deal-alexandria-ocasio-cortez-flaw-land-use.html) and [a longer report in Curbed](https://www.curbed.com/a/texas-california/electric-cars-climate-change-sacramento-california) by @awalkerinLA.
+Future iterations of the Green New Deal should make this unsprawling a central priority; for further reading, read [Baca's Slate article](https://slate.com/business/2019/02/green-new-deal-alexandria-ocasio-cortez-flaw-land-use.html) and [a longer report in Curbed](https://www.curbed.com/a/texas-california/electric-cars-climate-change-sacramento-california) by Alissa Walker.
 
 I want to make one last point about sprawl: it's bad for managing the extreme weather that we have already locked in through climate change.
 My research focuses on designing infrastructure systems with climate change mitigation in mind, so this is a special passion of mine.
@@ -92,7 +93,8 @@ The second key flaw of the Green New Deal is a reluctance to use carbon prices a
 I'm not qualified to write about the politics, but there is a strong sentiment that the government needs to design, build, and pay for new systems (such as electric cars) rather than letting private companies get rich doing it themselves.
 But maybe this isn't required:
 
-@mtsw/status/1094279572114296832
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">If you made a credible promise that the gas tax would raise the price of gas to $7/gallon by 2025, ~100% of new cars sold by 2023 would be BEVs.<br><br>Taxing the combustion engine out of viability could be done with the stroke of a pen, not a herculean effort. <a href="https://t.co/SvvtC5jVpB">https://t.co/SvvtC5jVpB</a></p>&mdash; Michael T Sweeney (@mtsw) <a href="https://twitter.com/mtsw/status/1094279572114296832?ref_src=twsrc%5Etfw">February 9, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This is a tweet, not a policy proposal, and so we'd need to think hard about the time horizon of the tax and what to do with the revenue (use it to fund public transit, or cut all taxpayers a check to make the policy help, rather than hurt, the poor).
 But it illustrates the debate at the heart of this issue: what's the role of the private sector in decarbonizing the economy?
@@ -115,18 +117,19 @@ If we want the infrastructure, energy, transportation, construction, manufacturi
 Taxing carbon definitely isn't going to solve climate change on its own, but it should be a key component of any realistic plan.
 Call it a necessary, but not sufficient, condition.
 
-@daguilarcanabal/status/1093581167754850304
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">If you don&#39;t believe in a state-imposed carbon tax, it means that you believe that the market is already efficiently handling carbon emissions. Somehow this is a progressive stance. <a href="https://t.co/J94bhwqvvA">https://t.co/J94bhwqvvA</a></p>&mdash; Cars = Workers (@daguilarcanabal) <a href="https://twitter.com/daguilarcanabal/status/1093581167754850304?ref_src=twsrc%5Etfw">February 7, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Be real about nuclear
 
 My last point is brief.
-As @bradplumer of @nytclimate [reports](https://www.nytimes.com/2018/04/18/climate/climate-fwd-green-nuclear.html), environmentalists and nuclear power have a complicated history.
+As Brad Plumer of the New York Times [reports](https://www.nytimes.com/2018/04/18/climate/climate-fwd-green-nuclear.html), environmentalists and nuclear power have a complicated history.
 The Fukushima disaster in Japan highlighted what can happen when extreme events hit imperfectly-designed nuclear reactors.
 Storing nuclear waste is dangerous and complex, not to mention politically complex.
 Design of nuclear systems has gotten better in recent decades, but nothing is perfect.
 
 Still, we shouldn't pretend that we can rapidly decarbonize the economy without nuclear.
-As some of the country's best-known climate scientists @KenCaldeira, Kerry Emmanuel, James Hansen, and Tom Wigley [wrote](https://www.cnn.com/2013/11/03/world/nuclear-energy-climate-change-scientists-letter/index.html) in 2013, there simply isn't a way to replace fossil fuel-generated electricity without using nuclear power:
+As some of the country's best-known climate scientists Ken Caldeira, Kerry Emmanuel, James Hansen, and Tom Wigley [wrote](https://www.cnn.com/2013/11/03/world/nuclear-energy-climate-change-scientists-letter/index.html) in 2013, there simply isn't a way to replace fossil fuel-generated electricity without using nuclear power:
 
 > While it may be theoretically possible to stabilize the climate without nuclear power, in the real world there is no credible path to climate stabilization that does not include a substantial role for nuclear power
 
@@ -136,13 +139,11 @@ We should be cautious of nuclear, but we also need to be honest and scale up nuc
 
 ## Conclusions
 
-I love the concept of a Green New Deal and am grateful to @AOC and others who have centered it in the national dialogue.
+I love the concept of a Green New Deal and am grateful to AOC and others who have centered it in the national dialogue.
 We need bold and dramatic action, now, to mitigate the catastrophic impacts of climate change.
 This will dramatically change the economy, and so we should seize the opportunity to make the economy more fair and more efficient while we're at it.
 
 There's still a long way for this concept to go before it becomes policy.
 However, the current draft has me a bit concerned.
 I especially hope that future iterations of this policy focus more on incentivizing sustainable behavior, building denser and human-centered communities.
-There's a lot I haven't discussed in this post, so please share your thoughts in the comments section or tweet me at @jdossgollin.
-
-Thanks to @awilli33 and @farnham_h2o for comments and feedback!
+There's a lot I haven't discussed in this post, so please share your thoughts in the comments section or tweet me at [@jdossgollin](https://twitter.com/jdossgollin).

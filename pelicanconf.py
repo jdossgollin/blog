@@ -44,7 +44,6 @@ PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = [
     'ipynb.markup',
     'render_math',
-    'pelican_advance_embed_tweet',
     'pelican-cite',
     'pelican_youtube',
 ]
