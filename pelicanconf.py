@@ -35,7 +35,6 @@ SOCIAL = (
     ('twitter', 'https://twitter.com/jdossgollin'),
     ('linkedin', 'https://www.linkedin.com/in/jamesdossgollin/'),
 )
-DISQUS_SITENAME = 'jdossgollin'
 
 DEFAULT_PAGINATION = 10
 

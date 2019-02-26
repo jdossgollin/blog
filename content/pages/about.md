@@ -10,9 +10,14 @@ If I'm not in the office, you can probably hear me yelling my support for [La Al
 
 ## What I Do
 
-**I work on water and climate risk management problems at the intersection of physical science, statistics, operations research, and engineering.**
+I work on the design and management of infrastructure systems under uncertainty.
 I'm especially interested in trade-offs between long- and short-term investments in climate adaptation, and how we can use climate predictability at different timescales to inform them.
-I'm also interested in studying the ways that climate risk aggregates -- across space, across time, and along supply chains -- particularly including supply chains for critical resources such as water and energy.
+Some of my specific interests include:
+
+* Process-based climate prediction and diagnostics
+* Real options analysis and sequential planning
+* Systems analysis and optimization
+* Spatial pooling and clustering of risk
 
 ## Why I Do It
 
