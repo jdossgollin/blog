@@ -50,10 +50,12 @@ MARKUP = ('md', 'ipynb', 'rst')
 IPYNB_USE_METACELL = True
 PUBLICATIONS_SRC = 'content/extra/library.bib'
 
+USE_LESS = True
+
 # THEME AND SETUP
 THEME = 'pelican-themes/Flex'
 SITELOGO = SITEURL + '/images/james.jpg'
-COPYRIGHT_YEAR = 2018
+COPYRIGHT_YEAR = 2019
 COPYRIGHT_NAME = 'James Doss-Gollin'
 BROWSER_COLOR = '#333333'
 OG_LOCALE = 'en/US'
