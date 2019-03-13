@@ -4,20 +4,20 @@ order: 4
 slug: about
 ---
 
-My name is James and I'm a Ph.D. candidate in the [Earth and Environmental Engineering](https://eee.columbia.edu/){:target="_blank"} Department at Columbia University.
-I'm affiliated with the [Columbia Water Center](https://water.columbia.edu){:target="_blank"}, which my adviser [Upmanu Lall](https://columbia.edu/~ula2){:target="_blank"} directs.
-If I'm not in the office, you can probably hear me yelling my support for [La Albirroja](https://twitter.com/albirroja?lang=en){:target="_blank"}, [A.S. Roma](https://www.chiesaditotti.com/){:target="_blank"}, and [Sportivo Luqueño](http://clubsportivoluqueno.com.py/){:target="_blank"}, or explaining why New Haven [apizza](https://www.nhregister.com/news/article/An-upcoming-film-celebrates-New-Haven-s-holy-12576171.php){:target="_blank"} is better than the New York stuff.
+I'm a Ph.D. candidate in the [Earth and Environmental Engineering](https://eee.columbia.edu/){:target="_blank"} Department at Columbia University advised by [Upmanu Lall](https://columbia.edu/~ula2){:target="_blank"}.
+If I'm not in the office, you can probably hear me yelling my support for [La Albirroja](https://twitter.com/albirroja?lang=en){:target="_blank"}, [A.S. Roma](https://www.chiesaditotti.com/){:target="_blank"}, and [Sportivo Luqueño](http://clubsportivoluqueno.com.py/){:target="_blank"}, or explaining why New Haven [apizza](https://www.nhregister.com/news/article/An-upcoming-film-celebrates-New-Haven-s-holy-12576171.php){:target="_blank"} is better than the New York knockoffs.
 
 ## What I Do
 
-I work on the design and management of infrastructure systems under uncertainty.
-I'm especially interested in trade-offs between long- and short-term investments in climate adaptation, and how we can use climate predictability at different timescales to inform them.
-Some of my specific interests include:
+I work on designing and managing resilient infrastructure systems under uncertainty.
+Some topics I'm currently working on include:
 
-* Process-based climate prediction and diagnostics
+* Process-based diagnostics of climate predictions
 * Real options analysis and sequential planning
-* Systems analysis and optimization
-* Spatial pooling and clustering of risk
+* Identifying the distribution of climate risk in space, time, and across populations
+* Financial risk hedging and other nonstructural risk mitigation instruments
+
+If you are interested in these areas I would be delighted to discuss how we can collaborate!
 
 ## Why I Do It
 
