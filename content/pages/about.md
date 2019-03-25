@@ -12,12 +12,13 @@ If I'm not in the office, you can probably hear me yelling my support for [La Al
 I work on designing and managing resilient infrastructure systems under uncertainty.
 Some topics I'm currently working on include:
 
-* Process-based diagnostics of climate predictions
-* Real options analysis and sequential planning
-* Identifying the distribution of climate risk in space, time, and across populations
-* Financial risk hedging and other nonstructural risk mitigation instruments
+* Identifying and modeling the physical causal chain of high-impact climate extremes
+* Statistical and dynamical diagnostics of climate forecasts
+* Integrating engineering, financial, and policy tools for climate risk management
+* Markov decision processes, dynamic programming, and reinforcement learning
 
-If you are interested in these areas I would be delighted to discuss how we can collaborate!
+If you are interested in any of these areas I would be delighted to discuss how we can collaborate!
+To learn about my previous work on these topics, see [my publications](publications).
 
 ## Why I Do It
 
@@ -33,5 +34,5 @@ Research is always incremental, and I know that making even a dent in the huge c
 ## Contact Me
 
 The best way to contact me is through e-mail: [james.doss-gollin@columbia.edu](mailto:james.doss-gollin@columbia.edu).
-I'm also active [on Twitter](http://twitter.com/jdossgollin){:target="_blank"}, and you can use any of the social icons on the navigation menu.
-I look forward to hearing from you!
+You can also find me enthusiastically posting hot takes about water, energy, transit, and soccer [on Twitter](http://twitter.com/jdossgollin){:target="_blank"}, uploading poorly organized repositories to [GitHub](https://github.com/jdossgollin){:target="_blank"}, or (inexplicably) maintaining a profile on [Linkedin](https://www.linkedin.com/in/jamesdossgollin/){:target="_blank"}.
+I look forward to hearing from you.
