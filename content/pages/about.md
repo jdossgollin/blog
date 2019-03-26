@@ -13,9 +13,10 @@ I work on designing and managing resilient infrastructure systems under uncertai
 Some topics I'm currently working on include:
 
 * Identifying and modeling the physical causal chain of high-impact climate extremes
-* Statistical and dynamical diagnostics of climate forecasts
+* Developing statistical and dynamical diagnostics of climate forecasts
 * Integrating engineering, financial, and policy tools for climate risk management
-* Markov decision processes, dynamic programming, and reinforcement learning
+* Applying Markov decision processes and reinforcement learning
+* Assessing future climate risk to infrastructure systems
 
 If you are interested in any of these areas I would be delighted to discuss how we can collaborate!
 To learn about my previous work on these topics, see [my publications](publications).
