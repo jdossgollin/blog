@@ -14,6 +14,7 @@ However, paywalls sometimes get in our way.
 **If you would like a copy of a paper** but are not able to access it because of paywalls, please [email me](mailto:james-dossgollin@columbia.edu) and I'll be delighted to send you a copy.
 
 <!--
+[@Rozer:2019]
 [@DossGollin:2018bn]
 [@Farnham:2018gs]
 [@DossGollin:2015hf]
