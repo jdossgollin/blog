@@ -45,6 +45,7 @@ PLUGINS = [
     'render_math',
     'pelican-cite',
     'pelican_youtube',
+    'liquid_tags.gram'
 ]
 MARKUP = ('md', 'ipynb', 'rst')
 IPYNB_USE_METACELL = True
