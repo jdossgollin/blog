@@ -1,7 +1,7 @@
 :title: Gladiators 3 - 0 Aliens
 :author: James Doss-Gollin
 :date: 2018-04-10
-:category: updates
+:category: opinion
 :tags: soccer
 :slug: 2018-romuntada
 :summary: DAJE ROMA!!!
