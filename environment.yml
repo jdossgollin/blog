@@ -5,6 +5,9 @@ channels:
 dependencies:
     - python>=3.6
     - beautifulsoup4
+    - bottleneck
+    - cartopy
+    - dask
     - ghp-import
     - ipython>=4.0
     - jupyter>=1.0
@@ -12,7 +15,9 @@ dependencies:
     - matplotlib
     - mypy
     - nbconvert>=4.0
+    - netcdf4
     - pelican
+    - pip
     - pybtex
     - pylint
     - scipy
