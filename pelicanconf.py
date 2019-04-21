@@ -31,6 +31,7 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
+    ('envelope', 'mailto:james.doss-gollin@gmail.com'),
     ('github', 'https://github.com/jdossgollin'),
     ('twitter', 'https://twitter.com/jdossgollin'),
     ('linkedin', 'https://www.linkedin.com/in/jamesdossgollin/'),
