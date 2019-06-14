@@ -26,7 +26,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ('My CV', 'https://jamesdossgollin.me/fullcv/CV_Doss-Gollin_James.pdf'),
+    ('My CV', 'https://jamesdossgollin.me/online-cv'),
 )
 
 # Social widget
