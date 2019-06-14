@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-SITETITLE = 'Water & Climate Risk Blog'
+SITETITLE = 'Climate Risk Blog'
 SITESUBTITLE = 'by James Doss-Gollin'
 AUTHOR = 'James Doss-Gollin'
 SITENAME = 'James Doss-Gollin'
@@ -12,8 +12,7 @@ SITEDESCRIPTION = 'Personal and research blog of James Doss-Gollin'
 SITEURL = 'http://localhost:8000'
 PATH = 'content'
 TIMEZONE = 'America/New_York'
-STATIC_PATHS = ['images', 'extra/CNAME', 'extra/library.bib', 'pdf']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = ['images', 'extra/library.bib', 'pdf']
 
 DEFAULT_LANG = 'en'
 
@@ -26,6 +25,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
+    ('My Homepage', 'https://jamesdossgollin.me'),
     ('My CV', 'https://jamesdossgollin.me/online-cv'),
 )
 

@@ -147,3 +147,7 @@ There's still a long way for this concept to go before it becomes policy.
 However, the current draft has me a bit concerned.
 I especially hope that future iterations of this policy focus more on incentivizing sustainable behavior, building denser and human-centered communities.
 There's a lot I haven't discussed in this post, so please share your thoughts in the comments section or tweet me at [@jdossgollin](https://twitter.com/jdossgollin).
+
+The last point I wanted to make, but didn't, is that the absolute best way that the US can reduce global greenhouse emissions is by helping developing countries get onto low-carbon development paths.
+This has been called a ["Green Marshall Plan,"](https://www.washingtonpost.com/opinions/we-need-a-green-marshall-plan/2019/03/04/44475dca-3c48-11e9-b10b-f05a22e75865_story.html?utm_term=.8bc126fbcb5e){:target="_blank"} which is a catchy name for a good plan.
+It's always a tough political sell, however, to get people to commit to investing abroad.
