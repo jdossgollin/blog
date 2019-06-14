@@ -10,7 +10,8 @@
 
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="./theme/stylesheet/style.min.css">
+    <link rel="stylesheet/less" type="text/css" href="./theme/stylesheet/style.less">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js" type="text/javascript"></script>
 
   <link rel="stylesheet" type="text/css" href="./theme/pygments/github.min.css">
   <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/fontawesome.css">
@@ -18,7 +19,7 @@
   <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
 
 
-    <link href="https://jdossgollin.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Blog Atom">
+    <link href="https://jdossgollin.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="James Doss-Gollin Atom">
 
 
 
@@ -37,7 +38,7 @@
 <meta name="description" content="Exploring the physical drivers of recent flooding in Paraguay" />
 <meta name="keywords" content="English, climate, papers">
 
-<meta property="og:site_name" content="Blog"/>
+<meta property="og:site_name" content="James Doss-Gollin"/>
 <meta property="og:title" content="More Flooding in Paraguay"/>
 <meta property="og:description" content="Exploring the physical drivers of recent flooding in Paraguay"/>
 <meta property="og:locale" content="en/US"/>
@@ -46,34 +47,43 @@
 <meta property="article:published_time" content="2018-10-31 00:00:00-04:00"/>
 <meta property="article:modified_time" content=""/>
 <meta property="article:author" content="./author/james-doss-gollin.html">
-<meta property="article:section" content="water-climate-risk"/>
+<meta property="article:section" content="analysis"/>
 <meta property="article:tag" content="English"/>
 <meta property="article:tag" content="climate"/>
 <meta property="article:tag" content="papers"/>
-<meta property="og:image" content="https://jdossgollin.github.io//images/james.jpg">
+<meta property="og:image" content="https://jdossgollin.github.io/blog/images/james.jpg">
 
-  <title>Blog &ndash; More Flooding in Paraguay</title>
+  <title>James Doss-Gollin &ndash; More Flooding in Paraguay</title>
 
 </head>
 <body>
   <aside>
     <div>
       <a href=".">
-        <img src="https://jdossgollin.github.io//images/james.jpg" alt="Water & Climate Risk Blog" title="Water & Climate Risk Blog">
+        <img src="https://jdossgollin.github.io/blog/images/james.jpg" alt="Climate Risk Blog" title="Climate Risk Blog">
       </a>
-      <h1><a href=".">Water & Climate Risk Blog</a></h1>
+      <h1><a href=".">Climate Risk Blog</a></h1>
 
-<p>by James Doss-Gollin</p>
+<p>by James Doss-Gollin</p>      
+      <ul class="list">
+        <p>
+          <i>long-form thoughts and analysis</i>
+        </p>
+      </ul>
+
       <nav>
         <ul class="list">
-          <li><a href="./pages/about.html">About Me</a></li>
-          <li><a href="./pages/publications.html">Publications</a></li>
 
-          <li><a href="https://github.com/jdossgollin/fullcv/blob/master/CV_Doss-Gollin_James.pdf" target="_blank">My CV</a></li>
+          <li><a href="https://jamesdossgollin.me" target="_blank">My Homepage</a></li>
+          <li><a href="https://jamesdossgollin.me/online-cv" target="_blank">My CV</a></li>
         </ul>
       </nav>
 
       <ul class="social">
+          <li><a class="sc-envelope" href="mailto:james.doss-gollin@gmail.com" target="_blank">
+            <i class="fas fa-envelope">
+            </i>
+          </a></li>
           <li><a class="sc-github" href="https://github.com/jdossgollin" target="_blank">
             <i class="fab fa-github">
             </i>
@@ -86,10 +96,11 @@
             <i class="fab fa-linkedin">
             </i>
           </a></li>
-          <li><a class="sc-researchgate" href="https://www.researchgate.net/profile/James_Doss-Gollin" target="_blank">
-            <i class="fab fa-researchgate">
-            </i>
-          </a></li>
+      </ul>
+      <ul class="list">
+        <p>
+          love my content? <a href="https://www.buymeacoffee.com/jdossgollin">buy me a coffee</a>
+        </p>
       </ul>
     </div>
 
@@ -105,7 +116,7 @@
       <a href="categories.html">Categories</a>
       <a href="tags.html">Tags</a>
 
-      <a href="https://jdossgollin.github.io/feeds/all.atom.xml">    Atom
+      <a href="https://jdossgollin.github.io/blog/feeds/all.atom.xml">    Atom
 </a>
 
     </nav>
@@ -115,7 +126,7 @@
       
     <h1 id="2018-more-floods-paraguay">More Flooding in Paraguay</h1>
     <p>
-          Posted on Wed 31 October 2018 in <a href="./category/water-climate-risk.html">water-climate-risk</a>
+          Posted on Wed 31 October 2018 in <a href="./category/analysis.html">analysis</a>
 
 
     </p>
@@ -142,7 +153,7 @@ However, the fact that most of Paraguay's lie along the Paraguay and the Paraná
 <p>It's helpful to refresh ourselves on the geography of this region.
 Figure 1(b) from our paper shows the Lower Paraguay River Basin; the capital city Asunción is shown with the letters ASU.</p>
 <p>One relevant feature of this region is that it's extremely flat.
-This is shown by the contours (strictly speaking they show $log_{10}$ of elevation, in meters).
+This is shown by the contours (strictly speaking they show <span class="math">\(\log_{10}\)</span> of elevation, in meters).
 As a consequence, rainfall that falls here tends to take a long time to drain once the soils are saturated.
 This means that above-average rainfall over a long time can cause flooding, even if none of the individual storms are particularly heavy.</p>
 <img alt="Map of Study Area" class="align-center" src="./images/2018-10-31-paraguay-floods/study_area.jpg" style="height: 300px;" />
@@ -246,48 +257,102 @@ A few more points in case you're interested</p>
 </table>
 </div>
 </div>
-<hr>
+<script type='text/javascript'>if (!document.getElementById('mathjaxscript_pelican_#%&#64;#$&#64;#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%&#64;#$&#64;#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script><hr>
 <h2>Bibliography</h2>
-<p id='Boers:2013jh'>Niklas Boers, Bodo Bookhagen, Norbert Marwan, Jürgen Kurths, and José Marengo.
+<p id='Boers:2013jh'>Niklas Boers, Bodo Bookhagen, Norbert Marwan, J<span class="bibtex-protected">ü</span>rgen Kurths, and Jos<span class="bibtex-protected">é</span> Marengo.
 Complex networks identify spatial patterns of extreme rainfall events of the <span class="bibtex-protected"><span class="bibtex-protected">South American Monsoon System</span></span>.
-<em>Geophysical Research Letters</em>, 40(16):4386&ndash;4392, August 2013.
-<a href="https://doi.org/10.1002/grl.50681">doi:10.1002/grl.50681</a>. <a class="cite-backref" href="#ref-Boers:2013jh-1" title="Jump back to reference 1">↩</a></p>
+<em>Geophysical Research Letters</em>, 40(16):4386&ndash;4392, 2013.
+URL: <a href="http://doi.wiley.com/10.1002/grl.50681">http://doi.wiley.com/10.1002/grl.50681</a>, <a href="https://doi.org/10.1002/grl.50681">doi:10.1002/grl.50681</a>. <a class="cite-backref" href="#ref-Boers:2013jh-1" title="Jump back to reference 1">↩</a></p>
 <p id='Carvalho:2004ix'>Leila M&nbsp;V Carvalho, C&nbsp;Jones, and Brant Liebmann.
 The <span class="bibtex-protected"><span class="bibtex-protected">South Atlantic</span></span> convergence zone: <span class="bibtex-protected"><span class="bibtex-protected">Intensity</span></span>, form, persistence, and relationships with intraseasonal to interannual activity and extreme rainfall.
-<em>Journal of Climate</em>, 17(1):88&ndash;108, January 2004.
-<a href="https://doi.org/10.1175/1520-0442(2004)017<0088:TSACZI>2.0.CO;2">doi:10.1175/1520-0442(2004)017&lt;0088:TSACZI&gt;2.0.CO;2</a>. <a class="cite-backref" href="#ref-Carvalho:2004ix-1" title="Jump back to reference 1">↩</a></p>
+<em>Journal of Climate</em>, 17(1):88&ndash;108, 2004.
+URL: <a href="http://journals.ametsoc.org/doi/abs/10.1175/1520-0442\%282004\%29017\%3C0088\%3ATSACZI\%3E2.0.CO\%3B2">http://journals.ametsoc.org/doi/abs/10.1175/1520-0442\%282004\%29017\%3C0088\%3ATSACZI\%3E2.0.CO\%3B2</a>, <a href="https://doi.org/10.1175/1520-0442(2004)017<0088:TSACZI>2.0.CO;2">doi:10.1175/1520-0442(2004)017&lt;0088:TSACZI&gt;2.0.CO;2</a>. <a class="cite-backref" href="#ref-Carvalho:2004ix-1" title="Jump back to reference 1">↩</a></p>
 <p id='Carvalho2002'>Leila M&nbsp;V Carvalho, Charles Jones, and Brant Liebmann.
 Extreme <span class="bibtex-protected"><span class="bibtex-protected">Precipitation Events</span></span> in <span class="bibtex-protected"><span class="bibtex-protected">Southeastern South America</span></span> and <span class="bibtex-protected"><span class="bibtex-protected">Large</span></span>-<span class="bibtex-protected"><span class="bibtex-protected">Scale Convective Patterns</span></span> in the <span class="bibtex-protected"><span class="bibtex-protected">South Atlantic Convergence Zone</span></span>.
-<em>Journal of Climate</em>, 15(17):2377&ndash;2394, September 2002.
+<em>Journal of Climate</em>, 15(17):2377&ndash;2394, 2002.
 <a href="https://doi.org/10.1175/1520-0442(2002)015<2377:EPEISS>2.0.CO;2">doi:10.1175/1520-0442(2002)015&lt;2377:EPEISS&gt;2.0.CO;2</a>. <a class="cite-backref" href="#ref-Carvalho2002-1" title="Jump back to reference 1">↩</a></p>
 <p id='Marengo:2012cm'>J&nbsp;A Marengo, B&nbsp;Liebmann, A&nbsp;M Grimm, V&nbsp;Misra, Pedro&nbsp;L Silva&nbsp;Dias, Iracema F&nbsp;A Cavalcanti, Leila M&nbsp;V Carvalho, E&nbsp;H Berbery, T&nbsp;Ambrizzi, C&nbsp;S Vera, A&nbsp;Celeste Saulo, J&nbsp;Nogues&nbsp;Paegle, E&nbsp;Zipser, Anji Seth, and L&nbsp;M Alves.
 Recent developments on the <span class="bibtex-protected"><span class="bibtex-protected">South American</span></span> monsoon system.
-<em>International Journal of Climatology</em>, 32(1):1&ndash;21, January 2012.
-<a href="https://doi.org/10.1002/joc.2254">doi:10.1002/joc.2254</a>. <a class="cite-backref" href="#ref-Marengo:2012cm-1" title="Jump back to reference 1">↩</a></p>
+<em>International Journal of Climatology</em>, 32(1):1&ndash;21, 2012.
+URL: <a href="http://doi.wiley.com/10.1002/joc.2254">http://doi.wiley.com/10.1002/joc.2254</a>, <a href="https://doi.org/10.1002/joc.2254">doi:10.1002/joc.2254</a>. <a class="cite-backref" href="#ref-Marengo:2012cm-1" title="Jump back to reference 1">↩</a></p>
 <p id='Marengo:2004kr'>Jose&nbsp;A Marengo, Wagner&nbsp;R Soares, Celeste Saulo, and Matilde Nicolini.
 Climatology of the <span class="bibtex-protected"><span class="bibtex-protected">Low</span></span>-<span class="bibtex-protected"><span class="bibtex-protected">Level Jet East</span></span> of the <span class="bibtex-protected"><span class="bibtex-protected">Andes</span></span> as <span class="bibtex-protected"><span class="bibtex-protected">Derived</span></span> from the <span class="bibtex-protected"><span class="bibtex-protected">NCEP</span></span>–<span class="bibtex-protected"><span class="bibtex-protected">NCAR Reanalyses</span></span>: <span class="bibtex-protected"><span class="bibtex-protected">Characteristics</span></span> and <span class="bibtex-protected"><span class="bibtex-protected">Temporal Variability</span></span>.
 <em>Journal of Climate</em>, 17(12):2261&ndash;2280, 2004.
-<a href="https://doi.org/10.1175/1520-0442(2004)017<2261:cotlje>2.0.co;2">doi:10.1175/1520-0442(2004)017&lt;2261:cotlje&gt;2.0.co;2</a>. <a class="cite-backref" href="#ref-Marengo:2004kr-1" title="Jump back to reference 1">↩</a></p>
-<p id='Nielsen:2018ep'>David&nbsp;Marcolino Nielsen, André&nbsp;Luiz Belém, Edilson Marton, and Marcio Cataldi.
+URL: <a href="http://journals.ametsoc.org/doi/abs/10.1175/1520-0442\%282004\%29017\%3C2261\%3ACOTLJE\%3E2.0.CO\%3B2">http://journals.ametsoc.org/doi/abs/10.1175/1520-0442\%282004\%29017\%3C2261\%3ACOTLJE\%3E2.0.CO\%3B2</a>, <a href="https://doi.org/10.1175/1520-0442(2004)017<2261:cotlje>2.0.co;2">doi:10.1175/1520-0442(2004)017&lt;2261:cotlje&gt;2.0.co;2</a>. <a class="cite-backref" href="#ref-Marengo:2004kr-1" title="Jump back to reference 1">↩</a></p>
+<p id='Nielsen:2018ep'>David&nbsp;Marcolino Nielsen, Andr<span class="bibtex-protected">é</span>&nbsp;Luiz Bel<span class="bibtex-protected">é</span>m, Edilson Marton, and Marcio Cataldi.
 Dynamics-based regression models for the <span class="bibtex-protected"><span class="bibtex-protected">South Atlantic Convergence Zone</span></span>.
-<em>Climate Dynamics</em>, 19(10):716&ndash;27, October 2018.
-<a href="https://doi.org/10.1007/s00382-018-4460-4">doi:10.1007/s00382-018-4460-4</a>. <a class="cite-backref" href="#ref-Nielsen:2018ep-1" title="Jump back to reference 1">↩</a></p>
+<em>Climate Dynamics</em>, 19(10):716&ndash;27, 2018.
+URL: <a href="http://link.springer.com/10.1007/s00382-018-4460-4">http://link.springer.com/10.1007/s00382-018-4460-4</a>, <a href="https://doi.org/10.1007/s00382-018-4460-4">doi:10.1007/s00382-018-4460-4</a>. <a class="cite-backref" href="#ref-Nielsen:2018ep-1" title="Jump back to reference 1">↩</a></p>
 <p id='Salio:2002ev'>P&nbsp;Salio, M&nbsp;Nicolini, and A&nbsp;Celeste Saulo.
 Chaco low-level jet events characterization during the austral summer season.
 <em>Journal of Geophysical Research</em>, 2002.
-<a href="https://doi.org/10.1029/2001JD001315">doi:10.1029/2001JD001315</a>. <a class="cite-backref" href="#ref-Salio:2002ev-1" title="Jump back to reference 1">↩</a></p>
+URL: <a href="http://doi.wiley.com/10.1029/2001JD001315">http://doi.wiley.com/10.1029/2001JD001315</a>, <a href="https://doi.org/10.1029/2001JD001315">doi:10.1029/2001JD001315</a>. <a class="cite-backref" href="#ref-Salio:2002ev-1" title="Jump back to reference 1">↩</a></p>
 <p id='Salio:2007gd'>Paola Salio, Matilde Nicolini, and Edward&nbsp;J Zipser.
 Mesoscale convective systems over southeastern <span class="bibtex-protected"><span class="bibtex-protected">South America</span></span> and their relationship with the <span class="bibtex-protected"><span class="bibtex-protected">South American</span></span> low-level jet.
-<em>Monthly Weather Review</em>, 135(4):1290&ndash;1309, April 2007.
-<a href="https://doi.org/10.1175/MWR3305.1">doi:10.1175/MWR3305.1</a>. <a class="cite-backref" href="#ref-Salio:2007gd-1" title="Jump back to reference 1">↩</a></p>
+<em>Monthly Weather Review</em>, 135(4):1290&ndash;1309, 2007.
+URL: <a href="http://journals.ametsoc.org/doi/abs/10.1175/MWR3305.1">http://journals.ametsoc.org/doi/abs/10.1175/MWR3305.1</a>, <a href="https://doi.org/10.1175/MWR3305.1">doi:10.1175/MWR3305.1</a>. <a class="cite-backref" href="#ref-Salio:2007gd-1" title="Jump back to reference 1">↩</a></p>
 <p id='Vera:2006ib'>C&nbsp;Vera, J&nbsp;Baez, M&nbsp;Douglas, C&nbsp;B Emmanuel, J&nbsp;Marengo, J&nbsp;Meitin, M&nbsp;Nicolini, J&nbsp;Nogues&nbsp;Paegle, J&nbsp;Paegle, O&nbsp;Penalba, P&nbsp;Salio, A&nbsp;Celeste Saulo, M&nbsp;A Silva&nbsp;Dias, Pedro L&nbsp;Silva Dias, and E&nbsp;Zipser.
 The <span class="bibtex-protected"><span class="bibtex-protected">South American Low</span></span>-<span class="bibtex-protected"><span class="bibtex-protected">Level Jet Experiment</span></span>.
-<em>Bulletin of the American Meteorological Society</em>, 87(1):63&ndash;78, January 2006.
-<a href="https://doi.org/10.1175/BAMS-87-1-63">doi:10.1175/BAMS-87-1-63</a>. <a class="cite-backref" href="#ref-Vera:2006ib-1" title="Jump back to reference 1">↩</a></p>
-<p id='DossGollin:2018bn'>James <span class="bibtex-protected">Doss-Gollin</span>, Ángel&nbsp;G Muñoz, Simon&nbsp;J Mason, and Max Pastén.
+<em>Bulletin of the American Meteorological Society</em>, 87(1):63&ndash;78, 2006.
+URL: <a href="http://journals.ametsoc.org/doi/10.1175/BAMS-87-1-63">http://journals.ametsoc.org/doi/10.1175/BAMS-87-1-63</a>, <a href="https://doi.org/10.1175/BAMS-87-1-63">doi:10.1175/BAMS-87-1-63</a>. <a class="cite-backref" href="#ref-Vera:2006ib-1" title="Jump back to reference 1">↩</a></p>
+<p id='DossGollin:2018bn'>James <span class="bibtex-protected">Doss-Gollin</span>, <span class="bibtex-protected">Á</span>ngel&nbsp;G Mu<span class="bibtex-protected">ñ</span>oz, Simon&nbsp;J Mason, and Max Past<span class="bibtex-protected">é</span>n.
 Heavy rainfall in <span class="bibtex-protected"><span class="bibtex-protected">Paraguay</span></span> during the 2015-2016 austral summer: causes and sub-seasonal-to-seasonal predictive skill.
-<em>Journal of Climate</em>, June 2018.
-<a href="https://doi.org/10.1175/JCLI-D-17-0805.1">doi:10.1175/JCLI-D-17-0805.1</a>. <a class="cite-backref" href="#ref-DossGollin:2018bn-1" title="Jump back to reference 1">↩</a><a class="cite-backref" href="#ref-DossGollin:2018bn-1" title="Jump back to reference 1"> <sup>1</sup> </a><a class="cite-backref" href="#ref-DossGollin:2018bn-2" title="Jump back to reference 2"><sup>2</sup> </a></p>
+<em>Journal of Climate</em>, 2018.
+URL: <a href="http://journals.ametsoc.org/doi/10.1175/JCLI-D-17-0805.1">http://journals.ametsoc.org/doi/10.1175/JCLI-D-17-0805.1</a>, <a href="https://doi.org/10.1175/JCLI-D-17-0805.1">doi:10.1175/JCLI-D-17-0805.1</a>. <a class="cite-backref" href="#ref-DossGollin:2018bn-1" title="Jump back to reference 1">↩</a><a class="cite-backref" href="#ref-DossGollin:2018bn-1" title="Jump back to reference 1"> <sup>1</sup> </a><a class="cite-backref" href="#ref-DossGollin:2018bn-2" title="Jump back to reference 2"><sup>2</sup> </a></p>
 
   </div>
   <div class="tag-cloud">
@@ -305,7 +370,7 @@ Heavy rainfall in <span class="bibtex-protected"><span class="bibtex-protected">
 </article>
 
     <footer>
-<p>&copy; James Doss-Gollin 2018</p>
+<p>&copy; James Doss-Gollin 2019</p>
 <p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
 </p>    </footer>
   </main>
@@ -317,9 +382,9 @@ Heavy rainfall in <span class="bibtex-protected"><span class="bibtex-protected">
 {
   "@context" : "http://schema.org",
   "@type" : "Blog",
-  "name": " Blog ",
+  "name": " James Doss-Gollin ",
   "url" : ".",
-  "image": "https://jdossgollin.github.io//images/james.jpg",
+  "image": "https://jdossgollin.github.io/blog/images/james.jpg",
   "description": "Personal and research blog of James Doss-Gollin"
 }
 </script>

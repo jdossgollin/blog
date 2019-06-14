@@ -10,7 +10,8 @@
 
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="../theme/stylesheet/style.min.css">
+    <link rel="stylesheet/less" type="text/css" href="../theme/stylesheet/style.less">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js" type="text/javascript"></script>
 
   <link rel="stylesheet" type="text/css" href="../theme/pygments/github.min.css">
   <link rel="stylesheet" type="text/css" href="../theme/font-awesome/css/fontawesome.css">
@@ -18,7 +19,7 @@
   <link rel="stylesheet" type="text/css" href="../theme/font-awesome/css/solid.css">
 
 
-    <link href="https://jdossgollin.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Blog Atom">
+    <link href="https://jdossgollin.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="James Doss-Gollin Atom">
 
 
 
@@ -35,15 +36,15 @@
 
     <meta name="author" content="James Doss-Gollin" />
     <meta name="description" content="Personal and research blog of James Doss-Gollin" />
-<meta property="og:site_name" content="Blog"/>
+<meta property="og:site_name" content="James Doss-Gollin"/>
 <meta property="og:type" content="blog"/>
-<meta property="og:title" content="Blog"/>
+<meta property="og:title" content="James Doss-Gollin"/>
 <meta property="og:description" content="Personal and research blog of James Doss-Gollin"/>
 <meta property="og:locale" content="en/US"/>
 <meta property="og:url" content=".."/>
-<meta property="og:image" content="https://jdossgollin.github.io//images/james.jpg">
+<meta property="og:image" content="https://jdossgollin.github.io/blog/images/james.jpg">
 
-  <title>Blog &ndash;     Tag statistics
+  <title>James Doss-Gollin &ndash;     Tag statistics
 </title>
 
 </head>
@@ -51,21 +52,30 @@
   <aside>
     <div>
       <a href="..">
-        <img src="https://jdossgollin.github.io//images/james.jpg" alt="Water & Climate Risk Blog" title="Water & Climate Risk Blog">
+        <img src="https://jdossgollin.github.io/blog/images/james.jpg" alt="Climate Risk Blog" title="Climate Risk Blog">
       </a>
-      <h1><a href="..">Water & Climate Risk Blog</a></h1>
+      <h1><a href="..">Climate Risk Blog</a></h1>
 
-<p>by James Doss-Gollin</p>
+<p>by James Doss-Gollin</p>      
+      <ul class="list">
+        <p>
+          <i>long-form thoughts and analysis</i>
+        </p>
+      </ul>
+
       <nav>
         <ul class="list">
-          <li><a href="../pages/about.html">About Me</a></li>
-          <li><a href="../pages/publications.html">Publications</a></li>
 
-          <li><a href="https://github.com/jdossgollin/fullcv/blob/master/CV_Doss-Gollin_James.pdf" target="_blank">My CV</a></li>
+          <li><a href="https://jamesdossgollin.me" target="_blank">My Homepage</a></li>
+          <li><a href="https://jamesdossgollin.me/online-cv" target="_blank">My CV</a></li>
         </ul>
       </nav>
 
       <ul class="social">
+          <li><a class="sc-envelope" href="mailto:james.doss-gollin@gmail.com" target="_blank">
+            <i class="fas fa-envelope">
+            </i>
+          </a></li>
           <li><a class="sc-github" href="https://github.com/jdossgollin" target="_blank">
             <i class="fab fa-github">
             </i>
@@ -78,10 +88,11 @@
             <i class="fab fa-linkedin">
             </i>
           </a></li>
-          <li><a class="sc-researchgate" href="https://www.researchgate.net/profile/James_Doss-Gollin" target="_blank">
-            <i class="fab fa-researchgate">
-            </i>
-          </a></li>
+      </ul>
+      <ul class="list">
+        <p>
+          love my content? <a href="https://www.buymeacoffee.com/jdossgollin">buy me a coffee</a>
+        </p>
       </ul>
     </div>
 
@@ -97,7 +108,7 @@
       <a href="categories.html">Categories</a>
       <a href="tags.html">Tags</a>
 
-      <a href="https://jdossgollin.github.io/feeds/all.atom.xml">    Atom
+      <a href="https://jdossgollin.github.io/blog/feeds/all.atom.xml">    Atom
 </a>
 
     </nav>
@@ -108,7 +119,7 @@
   <header>
     <h2><a href="../gev-marginal.html">Do We Over-Use the GEV Distribution?</a></h2>
     <p>
-          Posted on Mon 10 September 2018 in <a href="../category/statistics.html">statistics</a>
+          Posted on Mon 10 September 2018 in <a href="../category/analysis.html">analysis</a>
 
 
           &#8226;     Tagged with
@@ -131,7 +142,7 @@
 
 
     <footer>
-<p>&copy; James Doss-Gollin 2018</p>
+<p>&copy; James Doss-Gollin 2019</p>
 <p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
 </p>    </footer>
   </main>
@@ -143,9 +154,9 @@
 {
   "@context" : "http://schema.org",
   "@type" : "Blog",
-  "name": " Blog ",
+  "name": " James Doss-Gollin ",
   "url" : "..",
-  "image": "https://jdossgollin.github.io//images/james.jpg",
+  "image": "https://jdossgollin.github.io/blog/images/james.jpg",
   "description": "Personal and research blog of James Doss-Gollin"
 }
 </script>
